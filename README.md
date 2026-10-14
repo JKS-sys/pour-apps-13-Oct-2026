@@ -14,6 +14,8 @@ macOS · Windows · Linux · ChromeOS · FreeBSD — always the version the app'
 pour install peek voxo nib keel swep grab dial mend twig cine veil
 ```
 
+> ⭐ **If Pour saves you time, star this repository** — stars are how other people find it.
+
 <!-- apps:start -->
 | App | What it is | macOS | Windows | Linux | FreeBSD |
 |---|---|:-:|:-:|:-:|:-:|

@@ -1,0 +1,1523 @@
+{
+ "meta": {
+  "name": "pour-apps",
+  "owner": "Jagadeesh Kumar S",
+  "synced_at": "2026-10-13T16:00:57.817Z",
+  "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
+  "apps": 15
+ },
+ "formulae": [],
+ "casks": [
+  {
+   "token": "peek",
+   "full_token": "jks-sys/pour-apps/peek",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Peek"
+   ],
+   "desc": "Fast image viewer that opens pictures instantly and stays quiet",
+   "homepage": "https://ipconfig.co.network/peek",
+   "version": "2.0.13",
+   "sha256": "no_check",
+   "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_aarch64.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.peek"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Peek.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.peek",
+        "~/Library/Application Support/network.co.ipconfig.peek",
+        "~/Library/Caches/network.co.ipconfig.peek",
+        "~/Library/Preferences/network.co.ipconfig.peek.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.peek.savedState",
+        "~/Library/WebKit/network.co.ipconfig.peek"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Peek is free; Pro unlocks more. Releases: https://github.com/JKS-sys/peek-04-sep-2026-releases/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+    },
+    "tahoe": {
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+    },
+    "sequoia": {
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+    },
+    "sonoma": {
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+    },
+    "ventura": {
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+    },
+    "monterey": {
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+    },
+    "big_sur": {
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+    }
+   },
+   "pour": {
+    "livecheck": "https://ipconfig.co.network/updates/peek/latest.json",
+    "clear_quarantine": true,
+    "installers": [
+     {
+      "platform": "linux-x86_64",
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_amd64.AppImage",
+      "kind": "appimage"
+     },
+     {
+      "platform": "windows-x86_64",
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64-setup.exe",
+      "kind": "exe"
+     }
+    ],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/peek-04-sep-2026-releases/releases"
+   },
+   "_feed": {
+    "version": "2.0.13",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_aarch64.app.tar.gz"
+     },
+     "macos-x86_64": {
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+     },
+     "linux-x86_64": {
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_amd64.AppImage"
+     },
+     "windows-x86_64": {
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64-setup.exe"
+     }
+    }
+   }
+  },
+  {
+   "token": "voxo",
+   "full_token": "jks-sys/pour-apps/voxo",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Voxo"
+   ],
+   "desc": "Local AI transcription: turns audio and video into subtitles on your own computer",
+   "homepage": "https://ipconfig.co.network/voxo",
+   "version": "2.0.5",
+   "sha256": "no_check",
+   "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_aarch64.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.voxo"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Voxo.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.voxo",
+        "~/Library/Application Support/network.co.ipconfig.voxo",
+        "~/Library/Caches/network.co.ipconfig.voxo",
+        "~/Library/Preferences/network.co.ipconfig.voxo.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.voxo.savedState",
+        "~/Library/WebKit/network.co.ipconfig.voxo"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Voxo is free; Pro unlocks more. Releases: https://github.com/JKS-sys/Voxo-06-Sep-2026-Releases/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+    },
+    "tahoe": {
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+    },
+    "sequoia": {
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+    },
+    "sonoma": {
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+    },
+    "ventura": {
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+    },
+    "monterey": {
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+    },
+    "big_sur": {
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+    }
+   },
+   "pour": {
+    "livecheck": "https://ipconfig.co.network/updates/voxo/latest.json",
+    "clear_quarantine": true,
+    "installers": [
+     {
+      "platform": "linux-x86_64",
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_amd64.deb",
+      "kind": "deb"
+     },
+     {
+      "platform": "windows-x86_64",
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64-setup.exe",
+      "kind": "exe"
+     }
+    ],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/Voxo-06-Sep-2026-Releases/releases"
+   },
+   "_feed": {
+    "version": "2.0.5",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_aarch64.app.tar.gz"
+     },
+     "macos-x86_64": {
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+     },
+     "linux-x86_64": {
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_amd64.deb"
+     },
+     "windows-x86_64": {
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64-setup.exe"
+     }
+    }
+   }
+  },
+  {
+   "token": "nib",
+   "full_token": "jks-sys/pour-apps/nib",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Nib"
+   ],
+   "desc": "AI code text editor that opens instantly and never loses work",
+   "homepage": "https://ipconfig.co.network/nib",
+   "version": "0.4.12",
+   "sha256": "no_check",
+   "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_aarch64.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.nib"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Nib.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.nib",
+        "~/Library/Application Support/network.co.ipconfig.nib",
+        "~/Library/Caches/network.co.ipconfig.nib",
+        "~/Library/Preferences/network.co.ipconfig.nib.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.nib.savedState",
+        "~/Library/WebKit/network.co.ipconfig.nib"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Nib is free; Pro unlocks more. Releases: https://github.com/JKS-sys/nib-22-sep-2026-releases/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
+    },
+    "tahoe": {
+     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
+    },
+    "sequoia": {
+     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
+    },
+    "sonoma": {
+     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
+    },
+    "ventura": {
+     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
+    },
+    "monterey": {
+     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
+    },
+    "big_sur": {
+     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
+    }
+   },
+   "pour": {
+    "livecheck": "https://ipconfig.co.network/updates/nib/latest.json",
+    "clear_quarantine": true,
+    "installers": [],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/nib-22-sep-2026-releases/releases"
+   },
+   "_feed": {
+    "version": "0.4.12",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_aarch64.app.tar.gz"
+     },
+     "macos-x86_64": {
+      "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
+     }
+    }
+   }
+  },
+  {
+   "token": "keel",
+   "full_token": "jks-sys/pour-apps/keel",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Keel"
+   ],
+   "desc": "AI terminal that marks which commands worked and which failed",
+   "homepage": "https://ipconfig.co.network/keel",
+   "version": "0.4.6",
+   "sha256": "3859dd6e49ecb9dee686d99848c0057348d86fb50ff723b982bacf194f91f4c6",
+   "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-apple-silicon-11-oct-2026.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.keel"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Keel.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.keel",
+        "~/Library/Application Support/network.co.ipconfig.keel",
+        "~/Library/Caches/network.co.ipconfig.keel",
+        "~/Library/Preferences/network.co.ipconfig.keel.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.keel.savedState",
+        "~/Library/WebKit/network.co.ipconfig.keel"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Keel is free; Pro unlocks more. Releases: https://github.com/JKS-sys/keel-releases-29-sep-2026/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
+     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+    },
+    "tahoe": {
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
+     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+    },
+    "sequoia": {
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
+     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+    },
+    "sonoma": {
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
+     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+    },
+    "ventura": {
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
+     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+    },
+    "monterey": {
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
+     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+    },
+    "big_sur": {
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
+     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+    }
+   },
+   "pour": {
+    "livecheck": "https://ipconfig.co.network/updates/keel/latest.json",
+    "clear_quarantine": true,
+    "installers": [
+     {
+      "platform": "linux-x86_64",
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-linux-11-oct-2026.AppImage",
+      "kind": "appimage",
+      "sha256": "fdbed7802069ab97b746c8b875360ee9999380696d3f1f29bf71acef4c8f0f3d"
+     },
+     {
+      "platform": "windows-x86_64",
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-windows-11-oct-2026.exe",
+      "kind": "exe",
+      "sha256": "c774921948da7ac5d0d11fca4e43e5a0a71277b70e17bf68a2781641f7db4ba6"
+     }
+    ],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/keel-releases-29-sep-2026/releases"
+   },
+   "_feed": {
+    "version": "0.4.6",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-apple-silicon-11-oct-2026.app.tar.gz",
+      "sha256": "3859dd6e49ecb9dee686d99848c0057348d86fb50ff723b982bacf194f91f4c6"
+     },
+     "macos-x86_64": {
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
+      "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+     },
+     "linux-x86_64": {
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-linux-11-oct-2026.AppImage",
+      "sha256": "fdbed7802069ab97b746c8b875360ee9999380696d3f1f29bf71acef4c8f0f3d"
+     },
+     "windows-x86_64": {
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-windows-11-oct-2026.exe",
+      "sha256": "c774921948da7ac5d0d11fca4e43e5a0a71277b70e17bf68a2781641f7db4ba6"
+     }
+    }
+   }
+  },
+  {
+   "token": "swep",
+   "full_token": "jks-sys/pour-apps/swep",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Swep"
+   ],
+   "desc": "AI disk cleaner that shows you everything before it removes it",
+   "homepage": "https://ipconfig.co.network/swep",
+   "version": "0.2.10",
+   "sha256": "6535cf8761ead67ba40770993dc19a93d7b53c40c208e5a18f17511058ae858f",
+   "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_aarch64.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.swep"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Swep.app"
+     ]
+    },
+    {
+     "binary": [
+      "$APPDIR/Swep.app/Contents/MacOS/sp"
+     ],
+     "target": "$HOMEBREW_PREFIX/bin/sp"
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.swep",
+        "~/Library/Application Support/network.co.ipconfig.swep",
+        "~/Library/Caches/network.co.ipconfig.swep",
+        "~/Library/Preferences/network.co.ipconfig.swep.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.swep.savedState",
+        "~/Library/WebKit/network.co.ipconfig.swep"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Swep is free; Pro unlocks more. Releases: https://github.com/JKS-sys/swep-releases-30-sep-2026/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
+     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+    },
+    "tahoe": {
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
+     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+    },
+    "sequoia": {
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
+     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+    },
+    "sonoma": {
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
+     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+    },
+    "ventura": {
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
+     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+    },
+    "monterey": {
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
+     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+    },
+    "big_sur": {
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
+     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+    }
+   },
+   "pour": {
+    "livecheck": "https://ipconfig.co.network/updates/swep/latest.json",
+    "clear_quarantine": true,
+    "installers": [],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/swep-releases-30-sep-2026/releases"
+   },
+   "_feed": {
+    "version": "0.2.10",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_aarch64.app.tar.gz",
+      "sha256": "6535cf8761ead67ba40770993dc19a93d7b53c40c208e5a18f17511058ae858f"
+     },
+     "macos-x86_64": {
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
+      "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+     }
+    }
+   }
+  },
+  {
+   "token": "grab",
+   "full_token": "jks-sys/pour-apps/grab",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Grab"
+   ],
+   "desc": "Save video, audio and subtitles, then search what was said",
+   "homepage": "https://ipconfig.co.network/grab",
+   "version": "1.0.5",
+   "sha256": "no_check",
+   "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_aarch64.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.grab"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Grab.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.grab",
+        "~/Library/Application Support/network.co.ipconfig.grab",
+        "~/Library/Caches/network.co.ipconfig.grab",
+        "~/Library/Preferences/network.co.ipconfig.grab.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.grab.savedState",
+        "~/Library/WebKit/network.co.ipconfig.grab"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Grab is free; Pro unlocks more. Releases: https://github.com/JKS-sys/grab-08-oct-2026-releases/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
+    },
+    "tahoe": {
+     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
+    },
+    "sequoia": {
+     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
+    },
+    "sonoma": {
+     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
+    },
+    "ventura": {
+     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
+    },
+    "monterey": {
+     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
+    },
+    "big_sur": {
+     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
+    }
+   },
+   "pour": {
+    "livecheck": "https://ipconfig.co.network/updates/grab/latest.json",
+    "clear_quarantine": true,
+    "installers": [
+     {
+      "platform": "linux-x86_64",
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_amd64.deb",
+      "kind": "deb"
+     },
+     {
+      "platform": "linux-arm64",
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_arm64.deb",
+      "kind": "deb"
+     },
+     {
+      "platform": "windows-x86_64",
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64-setup.exe",
+      "kind": "exe"
+     },
+     {
+      "platform": "windows-arm64",
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_arm64-setup.exe",
+      "kind": "exe"
+     }
+    ],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/grab-08-oct-2026-releases/releases"
+   },
+   "_feed": {
+    "version": "1.0.5",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_aarch64.app.tar.gz"
+     },
+     "macos-x86_64": {
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
+     },
+     "linux-x86_64": {
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_amd64.deb"
+     },
+     "linux-arm64": {
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_arm64.deb"
+     },
+     "windows-x86_64": {
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64-setup.exe"
+     },
+     "windows-arm64": {
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_arm64-setup.exe"
+     }
+    }
+   }
+  },
+  {
+   "token": "dial",
+   "full_token": "jks-sys/pour-apps/dial",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Dial"
+   ],
+   "desc": "AI sound mixer with a volume and an equaliser for every app",
+   "homepage": "https://ipconfig.co.network/dial",
+   "version": "1.0.5",
+   "sha256": "no_check",
+   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_aarch64.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.dial"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Dial.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.dial",
+        "~/Library/Application Support/network.co.ipconfig.dial",
+        "~/Library/Caches/network.co.ipconfig.dial",
+        "~/Library/Preferences/network.co.ipconfig.dial.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.dial.savedState",
+        "~/Library/WebKit/network.co.ipconfig.dial"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Dial is free; Pro unlocks more. Releases: https://github.com/JKS-sys/dial-08-oct-2026-releases/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_x64.app.tar.gz"
+    },
+    "tahoe": {
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_x64.app.tar.gz"
+    },
+    "sequoia": {
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_x64.app.tar.gz"
+    },
+    "sonoma": {
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_x64.app.tar.gz"
+    },
+    "ventura": {
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_x64.app.tar.gz"
+    },
+    "monterey": {
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_x64.app.tar.gz"
+    },
+    "big_sur": {
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_x64.app.tar.gz"
+    }
+   },
+   "pour": {
+    "livecheck": "https://ipconfig.co.network/updates/dial/latest.json",
+    "clear_quarantine": true,
+    "installers": [
+     {
+      "platform": "linux-x86_64",
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_1.0.5_amd64.deb",
+      "kind": "deb"
+     },
+     {
+      "platform": "linux-arm64",
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_1.0.5_arm64.deb",
+      "kind": "deb"
+     },
+     {
+      "platform": "freebsd-x86_64",
+      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.5_freebsd_amd64.tar.gz",
+      "kind": "tar.gz"
+     }
+    ],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases"
+   },
+   "_feed": {
+    "version": "1.0.5",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_aarch64.app.tar.gz"
+     },
+     "macos-x86_64": {
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_x64.app.tar.gz"
+     },
+     "linux-x86_64": {
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_1.0.5_amd64.deb"
+     },
+     "linux-arm64": {
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_1.0.5_arm64.deb"
+     },
+     "freebsd-x86_64": {
+      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.5_freebsd_amd64.tar.gz"
+     }
+    }
+   }
+  },
+  {
+   "token": "mend",
+   "full_token": "jks-sys/pour-apps/mend",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Mend"
+   ],
+   "desc": "AI repair kit for iPhone, Android, your computer and every disk",
+   "homepage": "https://ipconfig.co.network/mend",
+   "version": "1.0.8",
+   "sha256": "no_check",
+   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.8/Mend_aarch64.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.mend"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Mend.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.mend",
+        "~/Library/Application Support/network.co.ipconfig.mend",
+        "~/Library/Caches/network.co.ipconfig.mend",
+        "~/Library/Preferences/network.co.ipconfig.mend.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.mend.savedState",
+        "~/Library/WebKit/network.co.ipconfig.mend"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Mend is free; Pro unlocks more. Releases: https://github.com/JKS-sys/mend-08-oct-2026-releases/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.8/Mend_x64.app.tar.gz"
+    },
+    "tahoe": {
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.8/Mend_x64.app.tar.gz"
+    },
+    "sequoia": {
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.8/Mend_x64.app.tar.gz"
+    },
+    "sonoma": {
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.8/Mend_x64.app.tar.gz"
+    },
+    "ventura": {
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.8/Mend_x64.app.tar.gz"
+    },
+    "monterey": {
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.8/Mend_x64.app.tar.gz"
+    },
+    "big_sur": {
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.8/Mend_x64.app.tar.gz"
+    }
+   },
+   "pour": {
+    "livecheck": "https://ipconfig.co.network/updates/mend/latest.json",
+    "clear_quarantine": true,
+    "installers": [
+     {
+      "platform": "linux-x86_64",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_amd64.deb",
+      "kind": "deb"
+     },
+     {
+      "platform": "linux-arm64",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_arm64.deb",
+      "kind": "deb"
+     },
+     {
+      "platform": "windows-x86_64",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_x64-setup.exe",
+      "kind": "exe"
+     },
+     {
+      "platform": "windows-arm64",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_arm64-setup.exe",
+      "kind": "exe"
+     }
+    ],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases"
+   },
+   "_feed": {
+    "version": "1.0.8",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.8/Mend_aarch64.app.tar.gz"
+     },
+     "macos-x86_64": {
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.8/Mend_x64.app.tar.gz"
+     },
+     "linux-x86_64": {
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_amd64.deb"
+     },
+     "linux-arm64": {
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_arm64.deb"
+     },
+     "windows-x86_64": {
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_x64-setup.exe"
+     },
+     "windows-arm64": {
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_arm64-setup.exe"
+     }
+    }
+   }
+  },
+  {
+   "token": "twig",
+   "full_token": "jks-sys/pour-apps/twig",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Twig"
+   ],
+   "desc": "AI Git client that writes your commit messages for you",
+   "homepage": "https://ipconfig.co.network/twig",
+   "version": "1.0.3",
+   "sha256": "no_check",
+   "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.3/Twig_aarch64.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.twig"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Twig.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.twig",
+        "~/Library/Application Support/network.co.ipconfig.twig",
+        "~/Library/Caches/network.co.ipconfig.twig",
+        "~/Library/Preferences/network.co.ipconfig.twig.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.twig.savedState",
+        "~/Library/WebKit/network.co.ipconfig.twig"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Twig is free; Pro unlocks more. Releases: https://github.com/JKS-sys/twig-08-oct-2026-releases/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.3/Twig_x64.app.tar.gz"
+    },
+    "tahoe": {
+     "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.3/Twig_x64.app.tar.gz"
+    },
+    "sequoia": {
+     "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.3/Twig_x64.app.tar.gz"
+    },
+    "sonoma": {
+     "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.3/Twig_x64.app.tar.gz"
+    },
+    "ventura": {
+     "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.3/Twig_x64.app.tar.gz"
+    },
+    "monterey": {
+     "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.3/Twig_x64.app.tar.gz"
+    },
+    "big_sur": {
+     "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.3/Twig_x64.app.tar.gz"
+    }
+   },
+   "pour": {
+    "livecheck": "https://ipconfig.co.network/updates/twig/latest.json",
+    "clear_quarantine": true,
+    "installers": [
+     {
+      "platform": "linux-x86_64",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.2/Twig_1.0.2_amd64.deb",
+      "kind": "deb"
+     },
+     {
+      "platform": "linux-arm64",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.2/Twig_1.0.2_arm64.deb",
+      "kind": "deb"
+     },
+     {
+      "platform": "windows-x86_64",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.2/Twig_1.0.2_x64-setup.exe",
+      "kind": "exe"
+     },
+     {
+      "platform": "windows-arm64",
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.2/Twig_1.0.2_arm64-setup.exe",
+      "kind": "exe"
+     }
+    ],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases"
+   },
+   "_feed": {
+    "version": "1.0.3",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.3/Twig_aarch64.app.tar.gz"
+     },
+     "macos-x86_64": {
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.3/Twig_x64.app.tar.gz"
+     },
+     "linux-x86_64": {
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.2/Twig_1.0.2_amd64.deb"
+     },
+     "linux-arm64": {
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.2/Twig_1.0.2_arm64.deb"
+     },
+     "windows-x86_64": {
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.2/Twig_1.0.2_x64-setup.exe"
+     },
+     "windows-arm64": {
+      "url": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases/download/v1.0.2/Twig_1.0.2_arm64-setup.exe"
+     }
+    }
+   }
+  },
+  {
+   "token": "cine",
+   "full_token": "jks-sys/pour-apps/cine",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Cine"
+   ],
+   "desc": "Tiny media player that plays anything, with subtitles, AI and Skip Intro",
+   "homepage": "https://ipconfig.co.network/cine",
+   "version": "0.1.15",
+   "sha256": "df9da10a170863ead4fcbb365fc30dda75f214891b6da952617ceb143357c7c1",
+   "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_aarch64.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.cine"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Cine.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.cine",
+        "~/Library/Application Support/network.co.ipconfig.cine",
+        "~/Library/Caches/network.co.ipconfig.cine",
+        "~/Library/Preferences/network.co.ipconfig.cine.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.cine.savedState",
+        "~/Library/WebKit/network.co.ipconfig.cine"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Cine is free; Pro unlocks more. Releases: https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
+     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
+    },
+    "tahoe": {
+     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
+     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
+    },
+    "sequoia": {
+     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
+     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
+    },
+    "sonoma": {
+     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
+     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
+    },
+    "ventura": {
+     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
+     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
+    },
+    "monterey": {
+     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
+     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
+    },
+    "big_sur": {
+     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
+     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
+    }
+   },
+   "pour": {
+    "livecheck": "https://ipconfig.co.network/updates/cine/latest.json",
+    "clear_quarantine": true,
+    "installers": [],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases"
+   },
+   "_feed": {
+    "version": "0.1.15",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_aarch64.app.tar.gz",
+      "sha256": "df9da10a170863ead4fcbb365fc30dda75f214891b6da952617ceb143357c7c1"
+     },
+     "macos-x86_64": {
+      "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
+      "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
+     }
+    }
+   }
+  },
+  {
+   "token": "veil",
+   "full_token": "jks-sys/pour-apps/veil",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Veil"
+   ],
+   "desc": "Private browser where every profile is its own separate device",
+   "homepage": "https://ipconfig.co.network/veil",
+   "version": "0.1.7",
+   "sha256": "no_check",
+   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_aarch64.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.veil"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Veil.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.veil",
+        "~/Library/Application Support/network.co.ipconfig.veil",
+        "~/Library/Caches/network.co.ipconfig.veil",
+        "~/Library/Preferences/network.co.ipconfig.veil.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.veil.savedState",
+        "~/Library/WebKit/network.co.ipconfig.veil"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Veil is free; Pro unlocks more. Releases: https://github.com/JKS-sys/veil-releases-11-Oct-2026/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+    },
+    "tahoe": {
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+    },
+    "sequoia": {
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+    },
+    "sonoma": {
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+    },
+    "ventura": {
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+    },
+    "monterey": {
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+    },
+    "big_sur": {
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+    }
+   },
+   "pour": {
+    "livecheck": "https://ipconfig.co.network/updates/veil/latest.json",
+    "clear_quarantine": true,
+    "installers": [
+     {
+      "platform": "linux-x86_64",
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_amd64.AppImage",
+      "kind": "appimage"
+     },
+     {
+      "platform": "linux-arm64",
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_aarch64.AppImage",
+      "kind": "appimage"
+     },
+     {
+      "platform": "windows-x86_64",
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64-setup.exe",
+      "kind": "exe"
+     }
+    ],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/veil-releases-11-Oct-2026/releases"
+   },
+   "_feed": {
+    "version": "0.1.7",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_aarch64.app.tar.gz"
+     },
+     "macos-x86_64": {
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+     },
+     "linux-x86_64": {
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_amd64.AppImage"
+     },
+     "linux-arm64": {
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_aarch64.AppImage"
+     },
+     "windows-x86_64": {
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64-setup.exe"
+     }
+    }
+   }
+  },
+  {
+   "token": "hone",
+   "full_token": "jks-sys/pour-apps/hone",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Hone"
+   ],
+   "desc": "Audio and video mastering studio",
+   "homepage": "https://ipconfig.co.network/hone",
+   "version": "0.0.0",
+   "sha256": "no_check",
+   "url": "",
+   "container": null,
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.hone"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Hone.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.hone",
+        "~/Library/Application Support/network.co.ipconfig.hone",
+        "~/Library/Caches/network.co.ipconfig.hone",
+        "~/Library/Preferences/network.co.ipconfig.hone.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.hone.savedState",
+        "~/Library/WebKit/network.co.ipconfig.hone"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Hone is not released yet. Watch https://ipconfig.co.network/hone — it will appear here the day it ships.",
+   "variations": {},
+   "pour": {
+    "livecheck": null,
+    "clear_quarantine": true,
+    "installers": [],
+    "status": "coming-soon",
+    "releases": null
+   },
+   "_feed": null
+  },
+  {
+   "token": "volt",
+   "full_token": "jks-sys/pour-apps/volt",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Volt"
+   ],
+   "desc": "Fast code editor built on the VS Code codebase",
+   "homepage": "https://ipconfig.co.network/volt",
+   "version": "0.0.0",
+   "sha256": "no_check",
+   "url": "",
+   "container": null,
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.volt"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Volt.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.volt",
+        "~/Library/Application Support/network.co.ipconfig.volt",
+        "~/Library/Caches/network.co.ipconfig.volt",
+        "~/Library/Preferences/network.co.ipconfig.volt.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.volt.savedState",
+        "~/Library/WebKit/network.co.ipconfig.volt"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Volt is not released yet. Watch https://ipconfig.co.network/volt — it will appear here the day it ships.",
+   "variations": {},
+   "pour": {
+    "livecheck": null,
+    "clear_quarantine": true,
+    "installers": [],
+    "status": "coming-soon",
+    "releases": null
+   },
+   "_feed": null
+  },
+  {
+   "token": "deft",
+   "full_token": "jks-sys/pour-apps/deft",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Deft"
+   ],
+   "desc": "Change the default app for every file type on macOS",
+   "homepage": "https://ipconfig.co.network/deft",
+   "version": "0.0.0",
+   "sha256": "no_check",
+   "url": "",
+   "container": null,
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.deft"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Deft.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.deft",
+        "~/Library/Application Support/network.co.ipconfig.deft",
+        "~/Library/Caches/network.co.ipconfig.deft",
+        "~/Library/Preferences/network.co.ipconfig.deft.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.deft.savedState",
+        "~/Library/WebKit/network.co.ipconfig.deft"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Deft is not released yet. Watch https://ipconfig.co.network/deft — it will appear here the day it ships.",
+   "variations": {},
+   "pour": {
+    "livecheck": null,
+    "clear_quarantine": true,
+    "installers": [],
+    "status": "coming-soon",
+    "releases": null
+   },
+   "_feed": null
+  },
+  {
+   "token": "cutflow",
+   "full_token": "jks-sys/pour-apps/cutflow",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "CutFlow"
+   ],
+   "desc": "Video editor with 24K export, AV1 and automatic cuts",
+   "homepage": "https://ipconfig.co.network/cutflow",
+   "version": "0.0.0",
+   "sha256": "no_check",
+   "url": "",
+   "container": null,
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.cutflow"
+      }
+     ]
+    },
+    {
+     "app": [
+      "CutFlow.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.cutflow",
+        "~/Library/Application Support/network.co.ipconfig.cutflow",
+        "~/Library/Caches/network.co.ipconfig.cutflow",
+        "~/Library/Preferences/network.co.ipconfig.cutflow.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.cutflow.savedState",
+        "~/Library/WebKit/network.co.ipconfig.cutflow"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "CutFlow is not released yet. Watch https://ipconfig.co.network/cutflow — it will appear here the day it ships.",
+   "variations": {},
+   "pour": {
+    "livecheck": null,
+    "clear_quarantine": true,
+    "installers": [],
+    "status": "coming-soon",
+    "releases": null
+   },
+   "_feed": null
+  }
+ ]
+}

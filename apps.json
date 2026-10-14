@@ -1,0 +1,22 @@
+{
+  "owner": "Jagadeesh Kumar S",
+  "tap": "jks-sys/pour-apps",
+  "bundle_prefix": "network.co.ipconfig",
+  "apps": [
+    {"token": "peek",  "name": "Peek",  "desc": "Fast image viewer that opens pictures instantly and stays quiet", "homepage": "https://ipconfig.co.network/peek",  "feed": "https://ipconfig.co.network/updates/peek/latest.json",  "releases": "https://github.com/JKS-sys/peek-04-sep-2026-releases/releases", "app": "Peek.app"},
+    {"token": "voxo",  "name": "Voxo",  "desc": "Local AI transcription: turns audio and video into subtitles on your own computer", "homepage": "https://ipconfig.co.network/voxo",  "feed": "https://ipconfig.co.network/updates/voxo/latest.json",  "releases": "https://github.com/JKS-sys/Voxo-06-Sep-2026-Releases/releases", "app": "Voxo.app"},
+    {"token": "nib",   "name": "Nib",   "desc": "AI code text editor that opens instantly and never loses work", "homepage": "https://ipconfig.co.network/nib",   "feed": "https://ipconfig.co.network/updates/nib/latest.json",   "releases": "https://github.com/JKS-sys/nib-22-sep-2026-releases/releases", "app": "Nib.app"},
+    {"token": "keel",  "name": "Keel",  "desc": "AI terminal that marks which commands worked and which failed", "homepage": "https://ipconfig.co.network/keel",  "feed": "https://ipconfig.co.network/updates/keel/latest.json",  "releases": "https://github.com/JKS-sys/keel-releases-29-sep-2026/releases", "app": "Keel.app"},
+    {"token": "swep",  "name": "Swep",  "desc": "AI disk cleaner that shows you everything before it removes it", "homepage": "https://ipconfig.co.network/swep",  "feed": "https://ipconfig.co.network/updates/swep/latest.json",  "releases": "https://github.com/JKS-sys/swep-releases-30-sep-2026/releases", "app": "Swep.app", "binary": "sp"},
+    {"token": "grab",  "name": "Grab",  "desc": "Save video, audio and subtitles, then search what was said", "homepage": "https://ipconfig.co.network/grab",  "feed": "https://ipconfig.co.network/updates/grab/latest.json",  "releases": "https://github.com/JKS-sys/grab-08-oct-2026-releases/releases", "app": "Grab.app"},
+    {"token": "dial",  "name": "Dial",  "desc": "AI sound mixer with a volume and an equaliser for every app", "homepage": "https://ipconfig.co.network/dial",  "feed": "https://ipconfig.co.network/updates/dial/latest.json",  "releases": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases", "app": "Dial.app"},
+    {"token": "mend",  "name": "Mend",  "desc": "AI repair kit for iPhone, Android, your computer and every disk", "homepage": "https://ipconfig.co.network/mend",  "feed": "https://ipconfig.co.network/updates/mend/latest.json",  "releases": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases", "app": "Mend.app"},
+    {"token": "twig",  "name": "Twig",  "desc": "AI Git client that writes your commit messages for you", "homepage": "https://ipconfig.co.network/twig",  "feed": "https://ipconfig.co.network/updates/twig/latest.json",  "releases": "https://github.com/JKS-sys/twig-08-oct-2026-releases/releases", "app": "Twig.app"},
+    {"token": "cine",  "name": "Cine",  "desc": "Tiny media player that plays anything, with subtitles, AI and Skip Intro", "homepage": "https://ipconfig.co.network/cine",  "feed": "https://ipconfig.co.network/updates/cine/latest.json",  "releases": "https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases", "app": "Cine.app"},
+    {"token": "veil",  "name": "Veil",  "desc": "Private browser where every profile is its own separate device", "homepage": "https://ipconfig.co.network/veil",  "feed": "https://ipconfig.co.network/updates/veil/latest.json",  "releases": "https://github.com/JKS-sys/veil-releases-11-Oct-2026/releases", "app": "Veil.app"},
+    {"token": "hone",  "name": "Hone",  "desc": "Audio and video mastering studio", "homepage": "https://ipconfig.co.network/hone", "app": "Hone.app", "status": "coming-soon"},
+    {"token": "volt",  "name": "Volt",  "desc": "Fast code editor built on the VS Code codebase", "homepage": "https://ipconfig.co.network/volt", "app": "Volt.app", "status": "coming-soon"},
+    {"token": "deft",  "name": "Deft",  "desc": "Change the default app for every file type on macOS", "homepage": "https://ipconfig.co.network/deft", "app": "Deft.app", "status": "coming-soon"},
+    {"token": "cutflow", "name": "CutFlow", "desc": "Video editor with 24K export, AV1 and automatic cuts", "homepage": "https://ipconfig.co.network/cutflow", "app": "CutFlow.app", "status": "coming-soon"}
+  ]
+}

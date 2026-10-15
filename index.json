@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-10-14T21:55:03.713Z",
+  "synced_at": "2026-10-15T05:06:11.184Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 15
  },
@@ -812,9 +812,9 @@
    ],
    "desc": "AI repair kit for iPhone, Android, your computer and every disk",
    "homepage": "https://ipconfig.co.network/mend",
-   "version": "1.0.10",
+   "version": "1.0.12",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.10/Mend_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -857,25 +857,25 @@
    "caveats": "Mend is free; Pro unlocks more. Releases: https://github.com/JKS-sys/mend-08-oct-2026-releases/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.10/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
     },
     "tahoe": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.10/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
     },
     "sequoia": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.10/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
     },
     "sonoma": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.10/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
     },
     "ventura": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.10/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
     },
     "monterey": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.10/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
     },
     "big_sur": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.10/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
     }
    },
    "pour": {
@@ -884,22 +884,22 @@
     "installers": [
      {
       "platform": "linux-x86_64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_amd64.deb",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_amd64.deb",
       "kind": "deb"
      },
      {
       "platform": "linux-arm64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_arm64.deb",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_arm64.deb",
       "kind": "deb"
      },
      {
       "platform": "windows-x86_64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_x64-setup.exe",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_x64-setup.exe",
       "kind": "exe"
      },
      {
       "platform": "windows-arm64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_arm64-setup.exe",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_arm64-setup.exe",
       "kind": "exe"
      }
     ],
@@ -907,25 +907,25 @@
     "releases": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.10",
+    "version": "1.0.12",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.10/Mend_aarch64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_aarch64.app.tar.gz"
      },
      "macos-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.10/Mend_x64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
      },
      "linux-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_amd64.deb"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_amd64.deb"
      },
      "linux-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_arm64.deb"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_arm64.deb"
      },
      "windows-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_x64-setup.exe"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_x64-setup.exe"
      },
      "windows-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.6/Mend_1.0.6_arm64-setup.exe"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_arm64-setup.exe"
      }
     }
    }
@@ -1169,9 +1169,9 @@
    ],
    "desc": "Private browser where every profile is its own separate device",
    "homepage": "https://ipconfig.co.network/veil",
-   "version": "0.1.7",
+   "version": "0.1.10",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -1214,67 +1214,42 @@
    "caveats": "Veil is free; Pro unlocks more. Releases: https://github.com/JKS-sys/veil-releases-11-Oct-2026/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
     },
     "tahoe": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
     },
     "sequoia": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
     },
     "sonoma": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
     },
     "ventura": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
     },
     "monterey": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
     },
     "big_sur": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
     }
    },
    "pour": {
     "livecheck": "https://ipconfig.co.network/updates/veil/latest.json",
     "clear_quarantine": true,
-    "installers": [
-     {
-      "platform": "linux-x86_64",
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_amd64.AppImage",
-      "kind": "appimage"
-     },
-     {
-      "platform": "linux-arm64",
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_aarch64.AppImage",
-      "kind": "appimage"
-     },
-     {
-      "platform": "windows-x86_64",
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64-setup.exe",
-      "kind": "exe"
-     }
-    ],
+    "installers": [],
     "status": "released",
     "releases": "https://github.com/JKS-sys/veil-releases-11-Oct-2026/releases"
    },
    "_feed": {
-    "version": "0.1.7",
+    "version": "0.1.10",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_aarch64.app.tar.gz"
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_aarch64.app.tar.gz"
      },
      "macos-x86_64": {
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64.app.tar.gz"
-     },
-     "linux-x86_64": {
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_amd64.AppImage"
-     },
-     "linux-arm64": {
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_aarch64.AppImage"
-     },
-     "windows-x86_64": {
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.7_x64-setup.exe"
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
      }
     }
    }

@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-10-15T05:06:11.184Z",
+  "synced_at": "2026-10-15T12:00:46.334Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 15
  },
@@ -457,9 +457,9 @@
    ],
    "desc": "AI disk cleaner that shows you everything before it removes it",
    "homepage": "https://ipconfig.co.network/swep",
-   "version": "0.2.10",
-   "sha256": "6535cf8761ead67ba40770993dc19a93d7b53c40c208e5a18f17511058ae858f",
-   "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_aarch64.app.tar.gz",
+   "version": "0.2.11",
+   "sha256": "db6f1727c77b21dad61e3fbddf1c6b92e991f08941416641b720ce24af442b36",
+   "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -508,51 +508,92 @@
    "caveats": "Swep is free; Pro unlocks more. Releases: https://github.com/JKS-sys/swep-releases-30-sep-2026/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
-     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_x86_64.app.tar.gz",
+     "sha256": "0ae2f42ea449adabb5c641fc44346b0af229e38653c8fdc099d09c0c5080fef5"
     },
     "tahoe": {
-     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
-     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_x86_64.app.tar.gz",
+     "sha256": "0ae2f42ea449adabb5c641fc44346b0af229e38653c8fdc099d09c0c5080fef5"
     },
     "sequoia": {
-     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
-     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_x86_64.app.tar.gz",
+     "sha256": "0ae2f42ea449adabb5c641fc44346b0af229e38653c8fdc099d09c0c5080fef5"
     },
     "sonoma": {
-     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
-     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_x86_64.app.tar.gz",
+     "sha256": "0ae2f42ea449adabb5c641fc44346b0af229e38653c8fdc099d09c0c5080fef5"
     },
     "ventura": {
-     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
-     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_x86_64.app.tar.gz",
+     "sha256": "0ae2f42ea449adabb5c641fc44346b0af229e38653c8fdc099d09c0c5080fef5"
     },
     "monterey": {
-     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
-     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_x86_64.app.tar.gz",
+     "sha256": "0ae2f42ea449adabb5c641fc44346b0af229e38653c8fdc099d09c0c5080fef5"
     },
     "big_sur": {
-     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
-     "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+     "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_x86_64.app.tar.gz",
+     "sha256": "0ae2f42ea449adabb5c641fc44346b0af229e38653c8fdc099d09c0c5080fef5"
     }
    },
    "pour": {
     "livecheck": "https://ipconfig.co.network/updates/swep/latest.json",
     "clear_quarantine": true,
-    "installers": [],
+    "installers": [
+     {
+      "platform": "linux-x86_64",
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_amd64.deb",
+      "kind": "deb",
+      "sha256": "116e590c596a7a47c4a8907ade459bebdbd0bf1b4a7da3626cae620059a3fdd6"
+     },
+     {
+      "platform": "linux-arm64",
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_arm64.deb",
+      "kind": "deb",
+      "sha256": "d068406f2d5d18dc205b92543cf582327ccb067147b89da1c557fd69c78dc873"
+     },
+     {
+      "platform": "windows-x86_64",
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_x64-setup.exe",
+      "kind": "exe",
+      "sha256": "875927896b4d6d423f59195cfadefa9f589a95c41190de6ef7271aca5637b14a"
+     },
+     {
+      "platform": "windows-arm64",
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_arm64-setup.exe",
+      "kind": "exe",
+      "sha256": "68dc3344a8b500d392a8af5b8b56e1fcf3fe58618e666be085d058c1725536ec"
+     }
+    ],
     "status": "released",
     "releases": "https://github.com/JKS-sys/swep-releases-30-sep-2026/releases"
    },
    "_feed": {
-    "version": "0.2.10",
+    "version": "0.2.11",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_aarch64.app.tar.gz",
-      "sha256": "6535cf8761ead67ba40770993dc19a93d7b53c40c208e5a18f17511058ae858f"
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_aarch64.app.tar.gz",
+      "sha256": "db6f1727c77b21dad61e3fbddf1c6b92e991f08941416641b720ce24af442b36"
      },
      "macos-x86_64": {
-      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.10_x86_64.app.tar.gz",
-      "sha256": "db1be7f968483787c22c57dc4c707b70b48a5e4e96e84526dd1540d11a175a4c"
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_x86_64.app.tar.gz",
+      "sha256": "0ae2f42ea449adabb5c641fc44346b0af229e38653c8fdc099d09c0c5080fef5"
+     },
+     "linux-x86_64": {
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_amd64.deb",
+      "sha256": "116e590c596a7a47c4a8907ade459bebdbd0bf1b4a7da3626cae620059a3fdd6"
+     },
+     "linux-arm64": {
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_arm64.deb",
+      "sha256": "d068406f2d5d18dc205b92543cf582327ccb067147b89da1c557fd69c78dc873"
+     },
+     "windows-x86_64": {
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_x64-setup.exe",
+      "sha256": "875927896b4d6d423f59195cfadefa9f589a95c41190de6ef7271aca5637b14a"
+     },
+     "windows-arm64": {
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.11_arm64-setup.exe",
+      "sha256": "68dc3344a8b500d392a8af5b8b56e1fcf3fe58618e666be085d058c1725536ec"
      }
     }
    }
@@ -812,9 +853,9 @@
    ],
    "desc": "AI repair kit for iPhone, Android, your computer and every disk",
    "homepage": "https://ipconfig.co.network/mend",
-   "version": "1.0.12",
+   "version": "1.0.13",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -857,25 +898,25 @@
    "caveats": "Mend is free; Pro unlocks more. Releases: https://github.com/JKS-sys/mend-08-oct-2026-releases/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
     },
     "tahoe": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
     },
     "sequoia": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
     },
     "sonoma": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
     },
     "ventura": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
     },
     "monterey": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
     },
     "big_sur": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
     }
    },
    "pour": {
@@ -884,22 +925,22 @@
     "installers": [
      {
       "platform": "linux-x86_64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_amd64.deb",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_amd64.deb",
       "kind": "deb"
      },
      {
       "platform": "linux-arm64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_arm64.deb",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_arm64.deb",
       "kind": "deb"
      },
      {
       "platform": "windows-x86_64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_x64-setup.exe",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_x64-setup.exe",
       "kind": "exe"
      },
      {
       "platform": "windows-arm64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_arm64-setup.exe",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_arm64-setup.exe",
       "kind": "exe"
      }
     ],
@@ -907,25 +948,25 @@
     "releases": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.12",
+    "version": "1.0.13",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_aarch64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_aarch64.app.tar.gz"
      },
      "macos-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_x64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
      },
      "linux-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_amd64.deb"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_amd64.deb"
      },
      "linux-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_arm64.deb"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_arm64.deb"
      },
      "windows-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_x64-setup.exe"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_x64-setup.exe"
      },
      "windows-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.12/Mend_1.0.12_arm64-setup.exe"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_arm64-setup.exe"
      }
     }
    }

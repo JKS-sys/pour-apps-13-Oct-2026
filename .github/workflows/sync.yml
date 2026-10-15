@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [apps.json, build.mjs]
+    paths: [apps.json, build.mjs, tools.json, build-tools.mjs]
 
 permissions:
   contents: write
@@ -14,21 +14,28 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # secrets cannot be read in `if:`; as job env they can (empty when not set)
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       - run: node build.mjs
+      - name: Command-line tools for every system (only the ones that qualify)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node build-tools.mjs
       - name: Publish to Cloudflare R2
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: npx --yes wrangler@4 r2 object put pour-registry-13-oct-2026/apps/index.json --file index.json --content-type application/json --remote
+        run: |
+          npx --yes wrangler@4 r2 object put pour-registry-13-oct-2026/apps/index.json --file index.json --content-type application/json --remote
+          npx --yes wrangler@4 r2 object put pour-registry-13-oct-2026/tools/index.json --file tools.index.json --content-type application/json --remote
       - name: Commit
         run: |
           git config user.name "pour-apps bot"
           git config user.email "JKS.sys@icloud.com"
-          git add index.json
+          git add index.json tools.index.json
           git diff --cached --quiet || (git commit -qm "refresh: $(date -u +%Y-%m-%dT%H:%MZ)" && git push -q)

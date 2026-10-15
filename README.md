@@ -60,6 +60,16 @@ Product pages, screenshots and Pro plans: [ipconfig.co.network](https://ipconfig
 Anyone can publish a registry in this shape: `pour tap add you/apps https://…/index.json`.
 
 <!-- licence -->
+## Tools for every system
+
+`tools.json` lists command-line tools that publish their own builds; `build-tools.mjs` asks GitHub for each one's newest stable release, picks one download per system (macOS arm64/x86_64, Linux x86_64/arm64/i686, Windows x86_64/arm64, FreeBSD x86_64) and writes `tools.index.json` — the **pour-tools** registry, served at `ipconfig.co.network/pour/tools/index.json`. A tool is listed only when it qualifies, checked by the script with no one in the loop: a public, unarchived repository with a licence, a stable release, a SHA-256 for every download (GitHub's asset digest or the release's checksums file) and at least two systems. Today: 125 tools, about 800 downloads.
+
+```sh
+GITHUB_TOKEN=… node build-tools.mjs     # rebuild tools.index.json (the sync workflow does this every six hours)
+```
+
+Tool names are Homebrew's formula names, so `pour install gh` is one command on every system — Homebrew's bottle where it exists, the tool's own build on Windows and FreeBSD. Anyone can add a tool or an app with `pour register` (or `POST /pour/api/register`); it is checked automatically and listed at once when it qualifies.
+
 ## Licence
 
 Copyright © 2026 **Jagadeesh Kumar S**. All rights reserved. The registry and its scripts are source-available under the [Pour licence](https://github.com/JKS-sys/pour-13-Oct-2026/blob/main/LICENSE). The apps themselves have their own terms on their product pages.

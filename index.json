@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-10-16T16:54:24.536Z",
+  "synced_at": "2026-10-16T21:38:24.501Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 15
  },
@@ -128,9 +128,9 @@
    ],
    "desc": "Local AI transcription: turns audio and video into subtitles on your own computer",
    "homepage": "https://ipconfig.co.network/voxo",
-   "version": "2.0.5",
+   "version": "2.0.6",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -173,25 +173,25 @@
    "caveats": "Voxo is free; Pro unlocks more. Releases: https://github.com/JKS-sys/Voxo-06-Sep-2026-Releases/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_x64.app.tar.gz"
     },
     "tahoe": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_x64.app.tar.gz"
     },
     "sequoia": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_x64.app.tar.gz"
     },
     "sonoma": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_x64.app.tar.gz"
     },
     "ventura": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_x64.app.tar.gz"
     },
     "monterey": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_x64.app.tar.gz"
     },
     "big_sur": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_x64.app.tar.gz"
     }
    },
    "pour": {
@@ -199,13 +199,13 @@
     "clear_quarantine": true,
     "installers": [
      {
-      "platform": "linux-x86_64",
-      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_amd64.deb",
+      "platform": "linux-arm64",
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_arm64.deb",
       "kind": "deb"
      },
      {
       "platform": "windows-x86_64",
-      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64-setup.exe",
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_x64-setup.exe",
       "kind": "exe"
      }
     ],
@@ -213,19 +213,19 @@
     "releases": "https://github.com/JKS-sys/Voxo-06-Sep-2026-Releases/releases"
    },
    "_feed": {
-    "version": "2.0.5",
+    "version": "2.0.6",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_aarch64.app.tar.gz"
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_aarch64.app.tar.gz"
      },
      "macos-x86_64": {
-      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64.app.tar.gz"
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_x64.app.tar.gz"
      },
-     "linux-x86_64": {
-      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_amd64.deb"
+     "linux-arm64": {
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_arm64.deb"
      },
      "windows-x86_64": {
-      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.5_x64-setup.exe"
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.6_x64-setup.exe"
      }
     }
    }
@@ -744,9 +744,9 @@
    ],
    "desc": "AI sound mixer with a volume and an equaliser for every app",
    "homepage": "https://ipconfig.co.network/dial",
-   "version": "1.0.7",
+   "version": "1.0.8",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -789,25 +789,25 @@
    "caveats": "Dial is free; Pro unlocks more. Releases: https://github.com/JKS-sys/dial-08-oct-2026-releases/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_x64.app.tar.gz"
     },
     "tahoe": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_x64.app.tar.gz"
     },
     "sequoia": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_x64.app.tar.gz"
     },
     "sonoma": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_x64.app.tar.gz"
     },
     "ventura": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_x64.app.tar.gz"
     },
     "monterey": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_x64.app.tar.gz"
     },
     "big_sur": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_x64.app.tar.gz"
     }
    },
    "pour": {
@@ -826,17 +826,17 @@
      },
      {
       "platform": "windows-x86_64",
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_1.0.7_x64-setup.exe",
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_1.0.8_x64-setup.exe",
       "kind": "exe"
      },
      {
       "platform": "windows-arm64",
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_1.0.7_arm64-setup.exe",
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_1.0.8_arm64-setup.exe",
       "kind": "exe"
      },
      {
       "platform": "freebsd-x86_64",
-      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.7_freebsd_amd64.tar.gz",
+      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.8_freebsd_amd64.tar.gz",
       "kind": "tar.gz"
      }
     ],
@@ -844,13 +844,13 @@
     "releases": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_aarch64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_aarch64.app.tar.gz"
      },
      "macos-x86_64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_x64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_x64.app.tar.gz"
      },
      "linux-x86_64": {
       "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_1.0.7_amd64.deb"
@@ -859,13 +859,13 @@
       "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_1.0.5_arm64.deb"
      },
      "windows-x86_64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_1.0.7_x64-setup.exe"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_1.0.8_x64-setup.exe"
      },
      "windows-arm64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.7/Dial_1.0.7_arm64-setup.exe"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.8/Dial_1.0.8_arm64-setup.exe"
      },
      "freebsd-x86_64": {
-      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.7_freebsd_amd64.tar.gz"
+      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.8_freebsd_amd64.tar.gz"
      }
     }
    }

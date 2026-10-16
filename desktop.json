@@ -1,0 +1,247 @@
+{
+ "tap": "jks-sys/pour-desktop",
+ "about": "Desktop apps' own installers for Windows, Linux and FreeBSD, named like Homebrew's casks, so `pour install --cask obsidian` is one command on every system: Homebrew's cask on a Mac, the app's own installer elsewhere. Listed only when they qualify (see build-tools.mjs): a stable release, a licence (or the vendor's own release repository), a SHA-256 for every installer.",
+ "apps": [
+  {
+   "repo": "obsidianmd/obsidian-releases",
+   "token": "obsidian",
+   "vendor": true
+  },
+  {
+   "repo": "VSCodium/vscodium",
+   "token": "vscodium"
+  },
+  {
+   "repo": "laurent22/joplin",
+   "token": "joplin"
+  },
+  {
+   "repo": "logseq/logseq",
+   "token": "logseq"
+  },
+  {
+   "repo": "alacritty/alacritty",
+   "token": "alacritty"
+  },
+  {
+   "repo": "wezterm/wezterm",
+   "token": "wezterm"
+  },
+  {
+   "repo": "localsend/localsend",
+   "token": "localsend"
+  },
+  {
+   "repo": "rustdesk/rustdesk",
+   "token": "rustdesk"
+  },
+  {
+   "repo": "agalwood/Motrix",
+   "token": "motrix"
+  },
+  {
+   "repo": "janhq/jan",
+   "token": "jan"
+  },
+  {
+   "repo": "Eugeny/tabby",
+   "token": "tabby"
+  },
+  {
+   "repo": "zen-browser/desktop",
+   "token": "zen"
+  },
+  {
+   "repo": "keepassxreboot/keepassxc",
+   "token": "keepassxc"
+  },
+  {
+   "repo": "flameshot-org/flameshot",
+   "token": "flameshot"
+  },
+  {
+   "repo": "upscayl/upscayl",
+   "token": "upscayl"
+  },
+  {
+   "repo": "rancher-sandbox/rancher-desktop",
+   "token": "rancher"
+  },
+  {
+   "repo": "podman-desktop/podman-desktop",
+   "token": "podman-desktop"
+  },
+  {
+   "repo": "Kong/insomnia",
+   "token": "insomnia"
+  },
+  {
+   "repo": "usebruno/bruno",
+   "token": "bruno"
+  },
+  {
+   "repo": "mltframework/shotcut",
+   "token": "shotcut"
+  },
+  {
+   "repo": "obsproject/obs-studio",
+   "token": "obs"
+  },
+  {
+   "repo": "audacity/audacity",
+   "token": "audacity"
+  },
+  {
+   "repo": "FreeCAD/FreeCAD",
+   "token": "freecad"
+  },
+  {
+   "repo": "HandBrake/HandBrake",
+   "token": "handbrake-app"
+  },
+  {
+   "repo": "musescore/MuseScore",
+   "token": "musescore"
+  },
+  {
+   "repo": "ankitects/anki",
+   "token": "anki"
+  },
+  {
+   "repo": "jgraph/drawio-desktop",
+   "token": "drawio"
+  },
+  {
+   "repo": "element-hq/element-desktop",
+   "token": "element"
+  },
+  {
+   "repo": "vercel/hyper",
+   "token": "hyper"
+  },
+  {
+   "repo": "Heroic-Games-Launcher/HeroicGamesLauncher",
+   "token": "heroic"
+  },
+  {
+   "repo": "marktext/marktext",
+   "token": "marktext"
+  },
+  {
+   "repo": "mattermost/desktop",
+   "token": "mattermost"
+  },
+  {
+   "repo": "pbek/QOwnNotes",
+   "token": "qownnotes"
+  },
+  {
+   "repo": "cryptomator/cryptomator",
+   "token": "cryptomator"
+  },
+  {
+   "repo": "balena-io/etcher",
+   "token": "balenaetcher"
+  },
+  {
+   "repo": "raspberrypi/rpi-imager",
+   "token": "raspberry-pi-imager"
+  },
+  {
+   "repo": "FreeTubeApp/FreeTube",
+   "token": "freetube"
+  },
+  {
+   "repo": "transmission/transmission",
+   "token": "transmission"
+  },
+  {
+   "repo": "nextcloud-releases/desktop",
+   "token": "nextcloud"
+  },
+  {
+   "repo": "darktable-org/darktable",
+   "token": "darktable"
+  },
+  {
+   "repo": "lapce/lapce",
+   "token": "lapce"
+  },
+  {
+   "repo": "pulsar-edit/pulsar",
+   "token": "pulsar"
+  },
+  {
+   "repo": "dbeaver/dbeaver",
+   "token": "dbeaver-community"
+  },
+  {
+   "repo": "beekeeper-studio/beekeeper-studio",
+   "token": "beekeeper-studio"
+  },
+  {
+   "repo": "qishibo/AnotherRedisDesktopManager",
+   "token": "another-redis-desktop-manager"
+  },
+  {
+   "repo": "mongodb-js/compass",
+   "token": "mongodb-compass"
+  },
+  {
+   "repo": "sqlitebrowser/sqlitebrowser",
+   "token": "db-browser-for-sqlite"
+  },
+  {
+   "repo": "angryip/ipscan",
+   "token": "angry-ip-scanner"
+  },
+  {
+   "repo": "clash-verge-rev/clash-verge-rev",
+   "token": "clash-verge-rev"
+  },
+  {
+   "repo": "espanso/espanso",
+   "token": "espanso"
+  },
+  {
+   "repo": "oliverschwendener/ueli",
+   "token": "ueli"
+  },
+  {
+   "repo": "ollama/ollama",
+   "token": "ollama-app"
+  },
+  {
+   "repo": "Flow-Launcher/Flow.Launcher",
+   "token": "flow-launcher"
+  },
+  {
+   "repo": "microsoft/PowerToys",
+   "token": "powertoys"
+  },
+  {
+   "repo": "ShareX/ShareX",
+   "token": "sharex"
+  },
+  {
+   "repo": "notepad-plus-plus/notepad-plus-plus",
+   "token": "notepad-plus-plus"
+  },
+  {
+   "repo": "ip7z/7zip",
+   "token": "7-zip"
+  },
+  {
+   "repo": "AutoHotkey/AutoHotkey",
+   "token": "autohotkey"
+  },
+  {
+   "repo": "TriliumNext/Trilium",
+   "token": "trilium-notes"
+  },
+  {
+   "repo": "desktop/desktop",
+   "token": "github"
+  }
+ ]
+}

@@ -1,142 +1,749 @@
 {
-  "tap": "jks-sys/pour-tools",
-  "about": "Command-line tools with their own builds for Windows, Linux, FreeBSD and macOS. A tool is listed only when it qualifies (see build-tools.mjs): a stable release, a licence, at least two systems with a published SHA-256 for every download. Names match Homebrew's formula names, so `pour install gh` is the same command everywhere — Homebrew's bottle where one exists, the tool's own build where not (Windows, FreeBSD).",
-  "tools": [
-    {"repo": "cli/cli", "token": "gh", "bin": ["gh"]},
-    {"repo": "rclone/rclone", "token": "rclone"},
-    {"repo": "yt-dlp/yt-dlp", "token": "yt-dlp", "assets": {"macos-arm64": "^yt-dlp_macos$", "macos-x86_64": "^yt-dlp_macos$", "linux-x86_64": "^yt-dlp_linux$", "linux-arm64": "^yt-dlp_linux_aarch64$", "windows-x86_64": "^yt-dlp\\.exe$", "windows-arm64": "^yt-dlp_arm64\\.exe$"}},
-    {"repo": "BtbN/FFmpeg-Builds", "token": "ffmpeg", "bin": ["ffmpeg", "ffprobe"], "desc": "Play, record, convert, and stream audio and video", "assets": {"linux-x86_64": "^ffmpeg-master-latest-linux64-gpl\\.tar\\.xz$", "linux-arm64": "^ffmpeg-master-latest-linuxarm64-gpl\\.tar\\.xz$", "windows-x86_64": "^ffmpeg-master-latest-win64-gpl\\.zip$", "windows-arm64": "^ffmpeg-master-latest-winarm64-gpl\\.zip$"}},
-    {"repo": "git-for-windows/git", "token": "git", "bin": ["git"], "desc": "Distributed revision control system", "assets": {"windows-x86_64": "^MinGit-[0-9.]+-64-bit\\.zip$", "windows-arm64": "^MinGit-[0-9.]+-arm64\\.zip$"}, "min_systems": 1},
-    {"repo": "git-lfs/git-lfs", "token": "git-lfs"},
-    {"repo": "Kitware/CMake", "token": "cmake", "bin": ["cmake", "ctest", "cpack"]},
-    {"repo": "ninja-build/ninja", "token": "ninja", "assets": {"linux-x86_64": "^ninja-linux\\.zip$", "linux-arm64": "^ninja-linux-aarch64\\.zip$", "macos-arm64": "^ninja-mac\\.zip$", "macos-x86_64": "^ninja-mac\\.zip$", "windows-x86_64": "^ninja-win\\.zip$", "windows-arm64": "^ninja-winarm64\\.zip$"}},
-    {"repo": "caddyserver/caddy", "token": "caddy"},
-    {"repo": "cloudflare/cloudflared", "token": "cloudflared"},
-    {"repo": "mongodb-js/mongosh", "token": "mongosh"},
-    {"repo": "nushell/nushell", "token": "nushell", "bin": ["nu"]},
-    {"repo": "majd/ipatool", "token": "ipatool"},
-    {"repo": "docker/buildx", "token": "docker-buildx", "bin": ["docker-buildx"]},
-    {"repo": "docker/compose", "token": "docker-compose", "bin": ["docker-compose"]},
-    {"repo": "BurntSushi/ripgrep", "token": "ripgrep", "bin": ["rg"]},
-    {"repo": "sharkdp/fd", "token": "fd"},
-    {"repo": "sharkdp/bat", "token": "bat"},
-    {"repo": "sharkdp/hyperfine", "token": "hyperfine"},
-    {"repo": "sharkdp/hexyl", "token": "hexyl"},
-    {"repo": "sharkdp/pastel", "token": "pastel"},
-    {"repo": "jqlang/jq", "token": "jq"},
-    {"repo": "mikefarah/yq", "token": "yq"},
-    {"repo": "junegunn/fzf", "token": "fzf"},
-    {"repo": "eza-community/eza", "token": "eza"},
-    {"repo": "ajeetdsouza/zoxide", "token": "zoxide"},
-    {"repo": "starship/starship", "token": "starship"},
-    {"repo": "jesseduffield/lazygit", "token": "lazygit"},
-    {"repo": "jesseduffield/lazydocker", "token": "lazydocker"},
-    {"repo": "dandavison/delta", "token": "git-delta", "bin": ["delta"]},
-    {"repo": "bootandy/dust", "token": "dust"},
-    {"repo": "ClementTsang/bottom", "token": "bottom", "bin": ["btm"]},
-    {"repo": "dalance/procs", "token": "procs"},
-    {"repo": "chmln/sd", "token": "sd"},
-    {"repo": "XAMPPRocky/tokei", "token": "tokei"},
-    {"repo": "casey/just", "token": "just"},
-    {"repo": "go-task/task", "token": "go-task", "bin": ["task"]},
-    {"repo": "astral-sh/uv", "token": "uv", "bin": ["uv", "uvx"]},
-    {"repo": "astral-sh/ruff", "token": "ruff"},
-    {"repo": "denoland/deno", "token": "deno"},
-    {"repo": "oven-sh/bun", "token": "bun"},
-    {"repo": "pnpm/pnpm", "token": "pnpm"},
-    {"repo": "Schniz/fnm", "token": "fnm"},
-    {"repo": "volta-cli/volta", "token": "volta"},
-    {"repo": "jdx/mise", "token": "mise"},
-    {"repo": "helix-editor/helix", "token": "helix", "bin": ["hx"]},
-    {"repo": "neovim/neovim", "token": "neovim", "bin": ["nvim"]},
-    {"repo": "zyedidia/micro", "token": "micro"},
-    {"repo": "gitui-org/gitui", "token": "gitui"},
-    {"repo": "jj-vcs/jj", "token": "jj"},
-    {"repo": "git-town/git-town", "token": "git-town"},
-    {"repo": "charmbracelet/glow", "token": "glow"},
-    {"repo": "charmbracelet/gum", "token": "gum"},
-    {"repo": "charmbracelet/freeze", "token": "freeze"},
-    {"repo": "charmbracelet/mods", "token": "mods"},
-    {"repo": "derailed/k9s", "token": "k9s"},
-    {"repo": "kubernetes-sigs/kind", "token": "kind"},
-    {"repo": "k3d-io/k3d", "token": "k3d"},
-    {"repo": "stern/stern", "token": "stern"},
-    {"repo": "FiloSottile/mkcert", "token": "mkcert"},
-    {"repo": "FiloSottile/age", "token": "age", "bin": ["age", "age-keygen"]},
-    {"repo": "getsops/sops", "token": "sops"},
-    {"repo": "gohugoio/hugo", "token": "hugo"},
-    {"repo": "getzola/zola", "token": "zola"},
-    {"repo": "jgm/pandoc", "token": "pandoc"},
-    {"repo": "ducaale/xh", "token": "xh"},
-    {"repo": "schollz/croc", "token": "croc"},
-    {"repo": "muesli/duf", "token": "duf"},
-    {"repo": "dundee/gdu", "token": "gdu"},
-    {"repo": "Byron/dua-cli", "token": "dua-cli", "bin": ["dua"]},
-    {"repo": "lsd-rs/lsd", "token": "lsd"},
-    {"repo": "twpayne/chezmoi", "token": "chezmoi"},
-    {"repo": "direnv/direnv", "token": "direnv"},
-    {"repo": "atuinsh/atuin", "token": "atuin"},
-    {"repo": "watchexec/watchexec", "token": "watchexec"},
-    {"repo": "dprint/dprint", "token": "dprint"},
-    {"repo": "biomejs/biome", "token": "biome"},
-    {"repo": "crate-ci/typos", "token": "typos-cli", "bin": ["typos"]},
-    {"repo": "orhun/git-cliff", "token": "git-cliff"},
-    {"repo": "goreleaser/goreleaser", "token": "goreleaser"},
-    {"repo": "golangci/golangci-lint", "token": "golangci-lint"},
-    {"repo": "koalaman/shellcheck", "token": "shellcheck"},
-    {"repo": "mvdan/sh", "token": "shfmt"},
-    {"repo": "rhysd/actionlint", "token": "actionlint"},
-    {"repo": "hadolint/hadolint", "token": "hadolint"},
-    {"repo": "evilmartians/lefthook", "token": "lefthook"},
-    {"repo": "aquasecurity/trivy", "token": "trivy"},
-    {"repo": "anchore/grype", "token": "grype"},
-    {"repo": "anchore/syft", "token": "syft"},
-    {"repo": "sigstore/cosign", "token": "cosign"},
-    {"repo": "gitleaks/gitleaks", "token": "gitleaks"},
-    {"repo": "trufflesecurity/trufflehog", "token": "trufflehog"},
-    {"repo": "wagoodman/dive", "token": "dive"},
-    {"repo": "tailwindlabs/tailwindcss", "token": "tailwindcss"},
-    {"repo": "cargo-bins/cargo-binstall", "token": "cargo-binstall"},
-    {"repo": "mozilla/sccache", "token": "sccache"},
-    {"repo": "zellij-org/zellij", "token": "zellij"},
-    {"repo": "sxyazi/yazi", "token": "yazi", "bin": ["yazi", "ya"]},
-    {"repo": "imsnif/bandwhich", "token": "bandwhich"},
-    {"repo": "pemistahl/grex", "token": "grex"},
-    {"repo": "tealdeer-rs/tealdeer", "token": "tealdeer", "bin": ["tldr"]},
-    {"repo": "denisidoro/navi", "token": "navi"},
-    {"repo": "noborus/ov", "token": "ov"},
-    {"repo": "antonmedv/fx", "token": "fx"},
-    {"repo": "cantino/mcfly", "token": "mcfly"},
-    {"repo": "Wilfred/difftastic", "token": "difftastic", "bin": ["difft"]},
-    {"repo": "johnkerl/miller", "token": "miller", "bin": ["mlr"]},
-    {"repo": "duckdb/duckdb", "token": "duckdb"},
-    {"repo": "supabase/cli", "token": "supabase"},
-    {"repo": "superfly/flyctl", "token": "flyctl", "bin": ["flyctl", "fly"]},
-    {"repo": "railwayapp/cli", "token": "railway"},
-    {"repo": "pulumi/pulumi", "token": "pulumi"},
-    {"repo": "digitalocean/doctl", "token": "doctl"},
-    {"repo": "hetznercloud/cli", "token": "hcloud"},
-    {"repo": "o2sh/onefetch", "token": "onefetch"},
-    {"repo": "fastfetch-cli/fastfetch", "token": "fastfetch"},
-    {"repo": "aristocratos/btop", "token": "btop"},
-    {"repo": "gokcehan/lf", "token": "lf"},
-    {"repo": "antonmedv/walk", "token": "walk"},
-    {"repo": "ast-grep/ast-grep", "token": "ast-grep", "bin": ["ast-grep", "sg"]},
-    {"repo": "lycheeverse/lychee", "token": "lychee"},
-    {"repo": "errata-ai/vale", "token": "vale"},
-    {"repo": "syncthing/syncthing", "token": "syncthing"},
-    {"repo": "kopia/kopia", "token": "kopia"},
-    {"repo": "traefik/traefik", "token": "traefik"},
-    {"repo": "grafana/k6", "token": "k6"},
-    {"repo": "tsenart/vegeta", "token": "vegeta"},
-    {"repo": "bluenviron/mediamtx", "token": "mediamtx"},
-    {"repo": "iawia002/lux", "token": "lux"},
-    {"repo": "aria2/aria2", "token": "aria2", "bin": ["aria2c"], "min_systems": 1},
-    {"repo": "ipinfo/cli", "token": "ipinfo-cli", "bin": ["ipinfo"]},
-    {"repo": "mr-karan/doggo", "token": "doggo"},
-    {"repo": "showwin/speedtest-go", "token": "speedtest-go"},
-    {"repo": "librespeed/speedtest-cli", "token": "librespeed-cli", "bin": ["librespeed-cli"]},
-    {"repo": "juanfont/headscale", "token": "headscale"},
-    {"repo": "openobserve/openobserve", "token": "openobserve"}
-  ]
+ "tap": "jks-sys/pour-tools",
+ "about": "Command-line tools with their own builds for Windows, Linux, FreeBSD and macOS. A tool is listed only when it qualifies (see build-tools.mjs): a stable release, a licence, at least two systems with a published SHA-256 for every download. Names match Homebrew's formula names, so `pour install gh` is the same command everywhere — Homebrew's bottle where one exists, the tool's own build where not (Windows, FreeBSD).",
+ "tools": [
+  {
+   "repo": "cli/cli",
+   "token": "gh",
+   "bin": [
+    "gh"
+   ]
+  },
+  {
+   "repo": "rclone/rclone",
+   "token": "rclone"
+  },
+  {
+   "repo": "yt-dlp/yt-dlp",
+   "token": "yt-dlp",
+   "assets": {
+    "macos-arm64": "^yt-dlp_macos$",
+    "macos-x86_64": "^yt-dlp_macos$",
+    "linux-x86_64": "^yt-dlp_linux$",
+    "linux-arm64": "^yt-dlp_linux_aarch64$",
+    "windows-x86_64": "^yt-dlp\\.exe$",
+    "windows-arm64": "^yt-dlp_arm64\\.exe$"
+   }
+  },
+  {
+   "repo": "BtbN/FFmpeg-Builds",
+   "token": "ffmpeg",
+   "bin": [
+    "ffmpeg",
+    "ffprobe"
+   ],
+   "desc": "Play, record, convert, and stream audio and video",
+   "assets": {
+    "linux-x86_64": "^ffmpeg-master-latest-linux64-gpl\\.tar\\.xz$",
+    "linux-arm64": "^ffmpeg-master-latest-linuxarm64-gpl\\.tar\\.xz$",
+    "windows-x86_64": "^ffmpeg-master-latest-win64-gpl\\.zip$",
+    "windows-arm64": "^ffmpeg-master-latest-winarm64-gpl\\.zip$"
+   }
+  },
+  {
+   "repo": "git-for-windows/git",
+   "token": "git",
+   "bin": [
+    "git"
+   ],
+   "desc": "Distributed revision control system",
+   "assets": {
+    "windows-x86_64": "^MinGit-[0-9.]+-64-bit\\.zip$",
+    "windows-arm64": "^MinGit-[0-9.]+-arm64\\.zip$"
+   },
+   "min_systems": 1
+  },
+  {
+   "repo": "git-lfs/git-lfs",
+   "token": "git-lfs"
+  },
+  {
+   "repo": "Kitware/CMake",
+   "token": "cmake",
+   "bin": [
+    "cmake",
+    "ctest",
+    "cpack"
+   ]
+  },
+  {
+   "repo": "ninja-build/ninja",
+   "token": "ninja",
+   "assets": {
+    "linux-x86_64": "^ninja-linux\\.zip$",
+    "linux-arm64": "^ninja-linux-aarch64\\.zip$",
+    "macos-arm64": "^ninja-mac\\.zip$",
+    "macos-x86_64": "^ninja-mac\\.zip$",
+    "windows-x86_64": "^ninja-win\\.zip$",
+    "windows-arm64": "^ninja-winarm64\\.zip$"
+   }
+  },
+  {
+   "repo": "caddyserver/caddy",
+   "token": "caddy"
+  },
+  {
+   "repo": "cloudflare/cloudflared",
+   "token": "cloudflared"
+  },
+  {
+   "repo": "mongodb-js/mongosh",
+   "token": "mongosh"
+  },
+  {
+   "repo": "nushell/nushell",
+   "token": "nushell",
+   "bin": [
+    "nu"
+   ]
+  },
+  {
+   "repo": "majd/ipatool",
+   "token": "ipatool"
+  },
+  {
+   "repo": "docker/buildx",
+   "token": "docker-buildx",
+   "bin": [
+    "docker-buildx"
+   ]
+  },
+  {
+   "repo": "docker/compose",
+   "token": "docker-compose",
+   "bin": [
+    "docker-compose"
+   ]
+  },
+  {
+   "repo": "BurntSushi/ripgrep",
+   "token": "ripgrep",
+   "bin": [
+    "rg"
+   ]
+  },
+  {
+   "repo": "sharkdp/fd",
+   "token": "fd"
+  },
+  {
+   "repo": "sharkdp/bat",
+   "token": "bat"
+  },
+  {
+   "repo": "sharkdp/hyperfine",
+   "token": "hyperfine"
+  },
+  {
+   "repo": "sharkdp/hexyl",
+   "token": "hexyl"
+  },
+  {
+   "repo": "sharkdp/pastel",
+   "token": "pastel"
+  },
+  {
+   "repo": "jqlang/jq",
+   "token": "jq"
+  },
+  {
+   "repo": "mikefarah/yq",
+   "token": "yq"
+  },
+  {
+   "repo": "junegunn/fzf",
+   "token": "fzf"
+  },
+  {
+   "repo": "eza-community/eza",
+   "token": "eza"
+  },
+  {
+   "repo": "ajeetdsouza/zoxide",
+   "token": "zoxide"
+  },
+  {
+   "repo": "starship/starship",
+   "token": "starship"
+  },
+  {
+   "repo": "jesseduffield/lazygit",
+   "token": "lazygit"
+  },
+  {
+   "repo": "jesseduffield/lazydocker",
+   "token": "lazydocker"
+  },
+  {
+   "repo": "dandavison/delta",
+   "token": "git-delta",
+   "bin": [
+    "delta"
+   ]
+  },
+  {
+   "repo": "bootandy/dust",
+   "token": "dust"
+  },
+  {
+   "repo": "ClementTsang/bottom",
+   "token": "bottom",
+   "bin": [
+    "btm"
+   ]
+  },
+  {
+   "repo": "dalance/procs",
+   "token": "procs"
+  },
+  {
+   "repo": "chmln/sd",
+   "token": "sd"
+  },
+  {
+   "repo": "XAMPPRocky/tokei",
+   "token": "tokei"
+  },
+  {
+   "repo": "casey/just",
+   "token": "just"
+  },
+  {
+   "repo": "go-task/task",
+   "token": "go-task",
+   "bin": [
+    "task"
+   ]
+  },
+  {
+   "repo": "astral-sh/uv",
+   "token": "uv",
+   "bin": [
+    "uv",
+    "uvx"
+   ]
+  },
+  {
+   "repo": "astral-sh/ruff",
+   "token": "ruff"
+  },
+  {
+   "repo": "denoland/deno",
+   "token": "deno"
+  },
+  {
+   "repo": "oven-sh/bun",
+   "token": "bun"
+  },
+  {
+   "repo": "pnpm/pnpm",
+   "token": "pnpm"
+  },
+  {
+   "repo": "Schniz/fnm",
+   "token": "fnm"
+  },
+  {
+   "repo": "volta-cli/volta",
+   "token": "volta"
+  },
+  {
+   "repo": "jdx/mise",
+   "token": "mise"
+  },
+  {
+   "repo": "helix-editor/helix",
+   "token": "helix",
+   "bin": [
+    "hx"
+   ]
+  },
+  {
+   "repo": "neovim/neovim",
+   "token": "neovim",
+   "bin": [
+    "nvim"
+   ]
+  },
+  {
+   "repo": "zyedidia/micro",
+   "token": "micro"
+  },
+  {
+   "repo": "gitui-org/gitui",
+   "token": "gitui"
+  },
+  {
+   "repo": "jj-vcs/jj",
+   "token": "jj"
+  },
+  {
+   "repo": "git-town/git-town",
+   "token": "git-town"
+  },
+  {
+   "repo": "charmbracelet/glow",
+   "token": "glow"
+  },
+  {
+   "repo": "charmbracelet/gum",
+   "token": "gum"
+  },
+  {
+   "repo": "charmbracelet/freeze",
+   "token": "freeze"
+  },
+  {
+   "repo": "charmbracelet/mods",
+   "token": "mods"
+  },
+  {
+   "repo": "derailed/k9s",
+   "token": "k9s"
+  },
+  {
+   "repo": "kubernetes-sigs/kind",
+   "token": "kind"
+  },
+  {
+   "repo": "k3d-io/k3d",
+   "token": "k3d"
+  },
+  {
+   "repo": "stern/stern",
+   "token": "stern"
+  },
+  {
+   "repo": "FiloSottile/mkcert",
+   "token": "mkcert"
+  },
+  {
+   "repo": "FiloSottile/age",
+   "token": "age",
+   "bin": [
+    "age",
+    "age-keygen"
+   ]
+  },
+  {
+   "repo": "getsops/sops",
+   "token": "sops"
+  },
+  {
+   "repo": "gohugoio/hugo",
+   "token": "hugo"
+  },
+  {
+   "repo": "getzola/zola",
+   "token": "zola"
+  },
+  {
+   "repo": "jgm/pandoc",
+   "token": "pandoc"
+  },
+  {
+   "repo": "ducaale/xh",
+   "token": "xh"
+  },
+  {
+   "repo": "schollz/croc",
+   "token": "croc"
+  },
+  {
+   "repo": "muesli/duf",
+   "token": "duf"
+  },
+  {
+   "repo": "dundee/gdu",
+   "token": "gdu"
+  },
+  {
+   "repo": "Byron/dua-cli",
+   "token": "dua-cli",
+   "bin": [
+    "dua"
+   ]
+  },
+  {
+   "repo": "lsd-rs/lsd",
+   "token": "lsd"
+  },
+  {
+   "repo": "twpayne/chezmoi",
+   "token": "chezmoi"
+  },
+  {
+   "repo": "direnv/direnv",
+   "token": "direnv"
+  },
+  {
+   "repo": "atuinsh/atuin",
+   "token": "atuin"
+  },
+  {
+   "repo": "watchexec/watchexec",
+   "token": "watchexec"
+  },
+  {
+   "repo": "dprint/dprint",
+   "token": "dprint"
+  },
+  {
+   "repo": "biomejs/biome",
+   "token": "biome"
+  },
+  {
+   "repo": "crate-ci/typos",
+   "token": "typos-cli",
+   "bin": [
+    "typos"
+   ]
+  },
+  {
+   "repo": "orhun/git-cliff",
+   "token": "git-cliff"
+  },
+  {
+   "repo": "goreleaser/goreleaser",
+   "token": "goreleaser"
+  },
+  {
+   "repo": "golangci/golangci-lint",
+   "token": "golangci-lint"
+  },
+  {
+   "repo": "koalaman/shellcheck",
+   "token": "shellcheck"
+  },
+  {
+   "repo": "mvdan/sh",
+   "token": "shfmt"
+  },
+  {
+   "repo": "rhysd/actionlint",
+   "token": "actionlint"
+  },
+  {
+   "repo": "hadolint/hadolint",
+   "token": "hadolint"
+  },
+  {
+   "repo": "evilmartians/lefthook",
+   "token": "lefthook"
+  },
+  {
+   "repo": "aquasecurity/trivy",
+   "token": "trivy"
+  },
+  {
+   "repo": "anchore/grype",
+   "token": "grype"
+  },
+  {
+   "repo": "anchore/syft",
+   "token": "syft"
+  },
+  {
+   "repo": "sigstore/cosign",
+   "token": "cosign"
+  },
+  {
+   "repo": "gitleaks/gitleaks",
+   "token": "gitleaks"
+  },
+  {
+   "repo": "trufflesecurity/trufflehog",
+   "token": "trufflehog"
+  },
+  {
+   "repo": "wagoodman/dive",
+   "token": "dive"
+  },
+  {
+   "repo": "tailwindlabs/tailwindcss",
+   "token": "tailwindcss"
+  },
+  {
+   "repo": "cargo-bins/cargo-binstall",
+   "token": "cargo-binstall"
+  },
+  {
+   "repo": "mozilla/sccache",
+   "token": "sccache"
+  },
+  {
+   "repo": "zellij-org/zellij",
+   "token": "zellij"
+  },
+  {
+   "repo": "sxyazi/yazi",
+   "token": "yazi",
+   "bin": [
+    "yazi",
+    "ya"
+   ]
+  },
+  {
+   "repo": "imsnif/bandwhich",
+   "token": "bandwhich"
+  },
+  {
+   "repo": "pemistahl/grex",
+   "token": "grex"
+  },
+  {
+   "repo": "tealdeer-rs/tealdeer",
+   "token": "tealdeer",
+   "bin": [
+    "tldr"
+   ]
+  },
+  {
+   "repo": "denisidoro/navi",
+   "token": "navi"
+  },
+  {
+   "repo": "noborus/ov",
+   "token": "ov"
+  },
+  {
+   "repo": "antonmedv/fx",
+   "token": "fx"
+  },
+  {
+   "repo": "cantino/mcfly",
+   "token": "mcfly"
+  },
+  {
+   "repo": "Wilfred/difftastic",
+   "token": "difftastic",
+   "bin": [
+    "difft"
+   ]
+  },
+  {
+   "repo": "johnkerl/miller",
+   "token": "miller",
+   "bin": [
+    "mlr"
+   ]
+  },
+  {
+   "repo": "duckdb/duckdb",
+   "token": "duckdb"
+  },
+  {
+   "repo": "supabase/cli",
+   "token": "supabase"
+  },
+  {
+   "repo": "superfly/flyctl",
+   "token": "flyctl",
+   "bin": [
+    "flyctl",
+    "fly"
+   ]
+  },
+  {
+   "repo": "railwayapp/cli",
+   "token": "railway"
+  },
+  {
+   "repo": "pulumi/pulumi",
+   "token": "pulumi"
+  },
+  {
+   "repo": "digitalocean/doctl",
+   "token": "doctl"
+  },
+  {
+   "repo": "hetznercloud/cli",
+   "token": "hcloud"
+  },
+  {
+   "repo": "o2sh/onefetch",
+   "token": "onefetch"
+  },
+  {
+   "repo": "fastfetch-cli/fastfetch",
+   "token": "fastfetch"
+  },
+  {
+   "repo": "aristocratos/btop",
+   "token": "btop"
+  },
+  {
+   "repo": "gokcehan/lf",
+   "token": "lf"
+  },
+  {
+   "repo": "antonmedv/walk",
+   "token": "walk"
+  },
+  {
+   "repo": "ast-grep/ast-grep",
+   "token": "ast-grep",
+   "bin": [
+    "ast-grep",
+    "sg"
+   ]
+  },
+  {
+   "repo": "lycheeverse/lychee",
+   "token": "lychee"
+  },
+  {
+   "repo": "errata-ai/vale",
+   "token": "vale"
+  },
+  {
+   "repo": "syncthing/syncthing",
+   "token": "syncthing"
+  },
+  {
+   "repo": "kopia/kopia",
+   "token": "kopia"
+  },
+  {
+   "repo": "traefik/traefik",
+   "token": "traefik"
+  },
+  {
+   "repo": "grafana/k6",
+   "token": "k6"
+  },
+  {
+   "repo": "tsenart/vegeta",
+   "token": "vegeta"
+  },
+  {
+   "repo": "bluenviron/mediamtx",
+   "token": "mediamtx"
+  },
+  {
+   "repo": "iawia002/lux",
+   "token": "lux"
+  },
+  {
+   "repo": "aria2/aria2",
+   "token": "aria2",
+   "bin": [
+    "aria2c"
+   ],
+   "min_systems": 1
+  },
+  {
+   "repo": "ipinfo/cli",
+   "token": "ipinfo-cli",
+   "bin": [
+    "ipinfo"
+   ]
+  },
+  {
+   "repo": "mr-karan/doggo",
+   "token": "doggo"
+  },
+  {
+   "repo": "showwin/speedtest-go",
+   "token": "speedtest-go"
+  },
+  {
+   "repo": "librespeed/speedtest-cli",
+   "token": "librespeed-cli",
+   "bin": [
+    "librespeed-cli"
+   ]
+  },
+  {
+   "repo": "juanfont/headscale",
+   "token": "headscale"
+  },
+  {
+   "repo": "openobserve/openobserve",
+   "token": "openobserve"
+  },
+  {
+   "token": "node@18",
+   "name": "node@18",
+   "desc": "Node.js 18 LTS (end of life; kept for projects that still need it)",
+   "homepage": "https://nodejs.org/",
+   "licence": "MIT",
+   "bin": [
+    "node",
+    "npm",
+    "npx"
+   ],
+   "direct": {
+    "checksums": "https://nodejs.org/dist/latest-v18.x/SHASUMS256.txt",
+    "base": "https://nodejs.org/dist/latest-v18.x/"
+   },
+   "caveats": "Node.js 18 reached its end of life in April 2025 and gets no security fixes. Homebrew has disabled node@18; this is the official build from nodejs.org."
+  },
+  {
+   "token": "aistor-mc",
+   "name": "mc",
+   "aliases": [
+    "minio/aistor/mc"
+   ],
+   "desc": "MinIO AIStor client: ls, cp, mirror and admin for S3-compatible object storage",
+   "homepage": "https://min.io/",
+   "licence": "MinIO AIStor EULA",
+   "bin": [
+    "mc"
+   ],
+   "direct": {
+    "files": {
+     "macos-arm64": {
+      "url": "https://dl.min.io/aistor/mc/release/darwin-arm64/archive/{file}",
+      "sum": "https://dl.min.io/aistor/mc/release/darwin-arm64/mc.sha256sum"
+     },
+     "macos-x86_64": {
+      "url": "https://dl.min.io/aistor/mc/release/darwin-amd64/archive/{file}",
+      "sum": "https://dl.min.io/aistor/mc/release/darwin-amd64/mc.sha256sum"
+     },
+     "linux-x86_64": {
+      "url": "https://dl.min.io/aistor/mc/release/linux-amd64/archive/{file}",
+      "sum": "https://dl.min.io/aistor/mc/release/linux-amd64/mc.sha256sum"
+     },
+     "linux-arm64": {
+      "url": "https://dl.min.io/aistor/mc/release/linux-arm64/archive/{file}",
+      "sum": "https://dl.min.io/aistor/mc/release/linux-arm64/mc.sha256sum"
+     }
+    }
+   }
+  },
+  {
+   "token": "aistor-minio",
+   "name": "minio",
+   "aliases": [
+    "minio/aistor/minio"
+   ],
+   "desc": "MinIO AIStor server: high-performance S3-compatible object storage",
+   "homepage": "https://min.io/",
+   "licence": "MinIO AIStor EULA",
+   "bin": [
+    "minio"
+   ],
+   "direct": {
+    "files": {
+     "macos-arm64": {
+      "url": "https://dl.min.io/aistor/minio/release/darwin-arm64/archive/{file}",
+      "sum": "https://dl.min.io/aistor/minio/release/darwin-arm64/minio.sha256sum"
+     },
+     "macos-x86_64": {
+      "url": "https://dl.min.io/aistor/minio/release/darwin-amd64/archive/{file}",
+      "sum": "https://dl.min.io/aistor/minio/release/darwin-amd64/minio.sha256sum"
+     },
+     "linux-x86_64": {
+      "url": "https://dl.min.io/aistor/minio/release/linux-amd64/archive/{file}",
+      "sum": "https://dl.min.io/aistor/minio/release/linux-amd64/minio.sha256sum"
+     },
+     "linux-arm64": {
+      "url": "https://dl.min.io/aistor/minio/release/linux-arm64/archive/{file}",
+      "sum": "https://dl.min.io/aistor/minio/release/linux-arm64/minio.sha256sum"
+     }
+    }
+   }
+  }
+ ]
 }

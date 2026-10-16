@@ -18,8 +18,14 @@
 // Copyright (c) 2026 Jagadeesh Kumar S. All rights reserved.
 import { readFileSync, writeFileSync } from "node:fs";
 
-const src = JSON.parse(readFileSync(new URL("./tools.json", import.meta.url), "utf8"));
-const prev = (() => { try { return JSON.parse(readFileSync("tools.index.json", "utf8")); } catch { return null; } })();
+// node build-tools.mjs            → tools.json   → tools.index.json   (command-line tools)
+// node build-tools.mjs desktop    → desktop.json → desktop.index.json (desktop apps' own installers
+//                                     for Windows, Linux and FreeBSD, named like Homebrew's casks)
+const MODE = process.argv.includes("desktop") ? "desktop" : "tools";
+const SRC_FILE = MODE === "desktop" ? "desktop.json" : "tools.json";
+const OUT_FILE = MODE === "desktop" ? "desktop.index.json" : "tools.index.json";
+const src = JSON.parse(readFileSync(new URL(`./${SRC_FILE}`, import.meta.url), "utf8"));
+const prev = (() => { try { return JSON.parse(readFileSync(OUT_FILE, "utf8")); } catch { return null; } })();
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
 const H = { "user-agent": "pour-tools-build", accept: "application/vnd.github+json", ...(TOKEN ? { authorization: `Bearer ${TOKEN}` } : {}) };
 
@@ -94,6 +100,72 @@ export function kindOf(name) {
   return "binary";
 }
 
+/** A desktop app's installer for one system: msi/exe on Windows, AppImage/deb/rpm on Linux. */
+export const APP_PLATFORMS = ["windows-x86_64", "windows-arm64", "linux-x86_64", "linux-arm64", "freebsd-x86_64"];
+const APP_EXT = { windows: /\.(msi|exe)$/i, linux: /\.(appimage|deb|rpm)$/i, freebsd: /\.(pkg|txz)$/i };
+const APP_SKIP = /(sha256|checksums|\.sig$|\.asc$|\.blockmap$|debug|symbols|source|[-_.]src[-_.]|armv[5-7]|armhf|[-_.]arm([-_.]|$)|i386|i686|[-_.]386|ia32|win32|x86(?![-_]?64)|ppc|s390|riscv|loong|android|portable|delta|\.zsync$|web-?setup|uninstall)/i;
+export function pickApp(assets, platform, override) {
+  if (override) {
+    const re = new RegExp(override, "i");
+    return assets.find((a) => re.test(a.name)) || null;
+  }
+  const [os, arch] = platform.split("-");
+  const ok = assets.filter((a) => {
+    const n = a.name;
+    if (!APP_EXT[os].test(n) || APP_SKIP.test(n)) return false;
+    if (os === "windows" && /\.(appimage|deb|rpm|dmg)$/i.test(n)) return false;
+    if (os === "linux" && /(windows|darwin|macos|\.exe$|\.msi$)/i.test(n)) return false;
+    if (os === "freebsd" && !/freebsd/i.test(n)) return false; // a bare .pkg is usually a macOS installer
+    const archHit = Object.entries(ARCH).filter(([, re]) => re.test(n)).map(([k]) => k);
+    if (archHit.length === 0) return arch === "x86_64";
+    return archHit.includes(arch) && (arch !== "x86_64" || !archHit.includes("arm64"));
+  });
+  const score = (a) => {
+    const n = a.name.toLowerCase();
+    let s = 0;
+    if (os === "windows") s += n.endsWith(".msi") ? 40 : 34 + (/(setup|install)/.test(n) ? 4 : 0);
+    if (os === "linux") s += n.endsWith(".appimage") ? 40 : n.endsWith(".deb") ? 32 : 24;
+    if (ARCH[arch]?.test(a.name)) s += 10;
+    if (/(user|per-user)/.test(n)) s += 1;
+    if (/[-_.]cli[-_.]/.test(n)) s -= 10; // the app, not its command-line variant
+    if (/(nightly|beta|alpha|rc\d|-dev[-_.]|canary|insiders)/.test(n)) s -= 20;
+    return s - n.length / 100;
+  };
+  return ok.sort((a, b) => score(b) - score(a))[0] || null;
+}
+export function appKind(name) {
+  const n = name.toLowerCase();
+  for (const k of ["msi", "exe", "appimage", "deb", "rpm"]) if (n.endsWith("." + k)) return k;
+  return "binary";
+}
+
+/** Sources that are not GitHub releases: an official vendor's download folder with a checksums
+ *  file (nodejs.org), or one checksum file per system (dl.min.io). Same qualification rules. */
+async function direct(t) {
+  const installers = [];
+  let version = "";
+  const get = async (u) => { const r = await fetch(u, { headers: { "user-agent": "pour-tools-build" } }); if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`); return r.text(); };
+  if (t.direct.checksums) {
+    const text = await get(t.direct.checksums);
+    const rows = text.split(/\r?\n/).map((l) => /^([0-9a-f]{64})\s+\*?(\S+)$/i.exec(l.trim())).filter(Boolean).map((m) => ({ name: m[2], sha: m[1].toLowerCase() }));
+    for (const p of PLATFORMS) {
+      const a = pick(rows, p, t.assets?.[p]);
+      if (!a) continue;
+      installers.push({ platform: p, url: t.direct.base + a.name, sha256: a.sha, kind: kindOf(a.name) });
+      version ||= (/\d+\.\d+\.\d+/.exec(a.name) || [""])[0];
+    }
+  } else if (t.direct.files) {
+    for (const [p, f] of Object.entries(t.direct.files)) {
+      const m = /^([0-9a-f]{64})\s+\*?(\S+)/i.exec((await get(f.sum)).trim());
+      if (!m) continue;
+      const file = m[2];
+      installers.push({ platform: p, url: f.url.replace("{file}", file), sha256: m[1].toLowerCase(), kind: "binary" });
+      version ||= (/RELEASE\.([0-9T:-]+Z)/.exec(file) || [, ""])[1].replace(/T.*/, "").replaceAll("-", ".") || file;
+    }
+  }
+  return { installers, version };
+}
+
 const gh = async (path) => {
   const r = await fetch(`https://api.github.com/${path}`, { headers: H });
   if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
@@ -132,31 +204,58 @@ const version = (rel) => {
 async function main() {
 const casks = [];
 const report = { listed: [], left_out: [] };
-for (const t of src.tools) {
+for (const t of src.tools || src.apps) {
   try {
+    if (t.direct) {
+      // an official vendor download folder: its checksums decide what qualifies
+      const { installers, version: ver } = await direct(t);
+      const need = t.min_systems ?? 2;
+      if (installers.length < need) throw new Error(`downloads for ${installers.length} system(s), needs ${need}`);
+      if (!t.licence) throw new Error("no licence stated");
+      casks.push({
+        token: t.token, full_token: `${src.tap}/${t.token}`, tap: src.tap, name: [t.name || t.token], old_tokens: t.aliases || [],
+        desc: t.desc, homepage: t.homepage, version: ver, sha256: installers.find((i) => i.platform === "macos-arm64")?.sha256 ?? "no_check", url: "",
+        artifacts: [{ binary: t.bin || [t.token] }], auto_updates: false, caveats: t.caveats || null,
+        pour: { kind: "cli", installers, source: t.homepage, licence: t.licence },
+      });
+      report.listed.push(`${t.token} ${ver} · ${installers.map((i) => i.platform).join(" ")}`);
+      continue;
+    }
     const repo = await gh(`repos/${t.repo}`);
     const problems = [];
     if (repo.archived) problems.push("repository is archived");
     if (repo.private) problems.push("repository is private");
-    if (!repo.license) problems.push("no licence");
+    if (!repo.license && !t.vendor) problems.push("no licence");
     let rel;
     try { rel = await gh(`repos/${t.repo}/releases/latest`); } catch { problems.push("no stable release"); }
     if (rel && (rel.draft || rel.prerelease)) problems.push("newest release is a pre-release");
     const installers = [];
+    const desktop = MODE === "desktop";
     if (rel) {
       const sums = await checksums(rel);
-      for (const p of PLATFORMS) {
-        const a = pick(rel.assets, p, t.assets?.[p]);
+      for (const p of desktop ? APP_PLATFORMS : PLATFORMS) {
+        const a = desktop ? pickApp(rel.assets, p, t.assets?.[p]) : pick(rel.assets, p, t.assets?.[p]);
         if (!a) continue;
         const digest = (a.digest || "").startsWith("sha256:") ? a.digest.slice(7).toLowerCase() : sums[a.name];
         if (!digest || !/^[0-9a-f]{64}$/.test(digest)) { problems.push(`${p}: ${a.name} has no published SHA-256`); continue; }
-        installers.push({ platform: p, url: a.browser_download_url, sha256: digest, kind: kindOf(a.name), size: a.size });
+        installers.push({ platform: p, url: a.browser_download_url, sha256: digest, kind: desktop ? appKind(a.name) : kindOf(a.name), size: a.size });
       }
     }
-    const need = t.min_systems ?? 2;
+    const need = t.min_systems ?? (desktop ? 1 : 2);
     if (installers.length < need) problems.push(`downloads for ${installers.length} system(s), needs ${need}`);
     const fatal = problems.filter((p) => !/has no published SHA-256/.test(p) || installers.length < need);
     if (fatal.length) throw new Error(fatal.join("; "));
+    if (desktop) {
+      casks.push({
+        token: t.token, full_token: `${src.tap}/${t.token}`, tap: src.tap, name: [t.name || repo.name],
+        desc: (t.desc || repo.description || repo.name).replace(/\s+/g, " ").trim().slice(0, 200),
+        homepage: repo.homepage && /^https:/.test(repo.homepage) ? repo.homepage : repo.html_url,
+        version: version(rel), sha256: "no_check", url: "", artifacts: [{ app: [`${t.name || repo.name}.app`] }], auto_updates: true, caveats: null,
+        pour: { kind: "app", installers, source: `github:${t.repo}`, licence: repo.license?.spdx_id || (t.vendor ? "vendor" : null), stars: repo.stargazers_count, release: rel.html_url },
+      });
+      report.listed.push(`${t.token} ${version(rel)} · ${installers.map((i) => i.platform + ":" + i.kind).join(" ")}`);
+      continue;
+    }
     const bins = t.bin || [t.token];
     const mac = installers.find((i) => i.platform === "macos-arm64");
     casks.push({
@@ -164,6 +263,7 @@ for (const t of src.tools) {
       full_token: `${src.tap}/${t.token}`,
       tap: src.tap,
       name: [t.name || t.token],
+      old_tokens: t.aliases || [],
       desc: (t.desc || repo.description || repo.name).replace(/\s+/g, " ").trim().slice(0, 200),
       homepage: repo.homepage && /^https:/.test(repo.homepage) ? repo.homepage : repo.html_url,
       version: version(rel),
@@ -184,12 +284,12 @@ for (const t of src.tools) {
 }
 
 const index = {
-  meta: { name: "pour-tools", owner: "Jagadeesh Kumar S", synced_at: new Date().toISOString(), source: "https://github.com/JKS-sys/pour-apps-13-Oct-2026", tools: casks.length, systems: PLATFORMS },
+  meta: { name: MODE === "desktop" ? "pour-desktop" : "pour-tools", owner: "Jagadeesh Kumar S", synced_at: new Date().toISOString(), source: "https://github.com/JKS-sys/pour-apps-13-Oct-2026", [MODE === "desktop" ? "apps" : "tools"]: casks.length, systems: MODE === "desktop" ? APP_PLATFORMS : PLATFORMS },
   formulae: [],
   casks,
 };
-writeFileSync("tools.index.json", JSON.stringify(index) + "\n");
-console.log(`tools.index.json: ${casks.length} tools qualified, ${report.left_out.length} left out`);
+writeFileSync(OUT_FILE, JSON.stringify(index) + "\n");
+console.log(`${OUT_FILE}: ${casks.length} ${MODE === "desktop" ? "apps" : "tools"} qualified, ${report.left_out.length} left out`);
 for (const l of report.left_out) console.log(`  - ${l}`);
 }
 

@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [apps.json, build.mjs, tools.json, build-tools.mjs]
+    paths: [apps.json, build.mjs, tools.json, desktop.json, build-tools.mjs]
 
 permissions:
   contents: write
@@ -24,18 +24,21 @@ jobs:
         with:
           node-version: 22
       - run: node build.mjs
-      - name: Command-line tools for every system (only the ones that qualify)
+      - name: Command-line tools and desktop apps for every system (only the ones that qualify)
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node build-tools.mjs
+        run: |
+          node build-tools.mjs
+          node build-tools.mjs desktop
       - name: Publish to Cloudflare R2
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         run: |
           npx --yes wrangler@4 r2 object put pour-registry-13-oct-2026/apps/index.json --file index.json --content-type application/json --remote
           npx --yes wrangler@4 r2 object put pour-registry-13-oct-2026/tools/index.json --file tools.index.json --content-type application/json --remote
+          npx --yes wrangler@4 r2 object put pour-registry-13-oct-2026/desktop/index.json --file desktop.index.json --content-type application/json --remote
       - name: Commit
         run: |
           git config user.name "pour-apps bot"
           git config user.email "JKS.sys@icloud.com"
-          git add index.json tools.index.json
+          git add index.json tools.index.json desktop.index.json
           git diff --cached --quiet || (git commit -qm "refresh: $(date -u +%Y-%m-%dT%H:%MZ)" && git push -q)

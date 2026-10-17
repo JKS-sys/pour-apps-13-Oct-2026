@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-10-17T11:07:36.509Z",
+  "synced_at": "2026-10-17T15:54:19.360Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 15
  },
@@ -333,9 +333,9 @@
    ],
    "desc": "AI terminal that marks which commands worked and which failed",
    "homepage": "https://ipconfig.co.network/keel",
-   "version": "0.4.6",
-   "sha256": "3859dd6e49ecb9dee686d99848c0057348d86fb50ff723b982bacf194f91f4c6",
-   "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-apple-silicon-11-oct-2026.app.tar.gz",
+   "version": "0.4.8",
+   "sha256": "ee55208e5df17dbdbc8be5eda4666c727359e240d7114e2528040202a9936c42",
+   "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-apple-silicon-17-oct-2026.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -378,32 +378,32 @@
    "caveats": "Keel is free; Pro unlocks more. Releases: https://github.com/JKS-sys/keel-releases-29-sep-2026/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
-     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
+     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
     },
     "tahoe": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
-     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
+     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
     },
     "sequoia": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
-     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
+     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
     },
     "sonoma": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
-     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
+     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
     },
     "ventura": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
-     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
+     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
     },
     "monterey": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
-     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
+     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
     },
     "big_sur": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
-     "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
+     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
     }
    },
    "pour": {
@@ -412,38 +412,58 @@
     "installers": [
      {
       "platform": "linux-x86_64",
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-linux-11-oct-2026.AppImage",
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-linux-x86_64-17-oct-2026.AppImage",
       "kind": "appimage",
-      "sha256": "fdbed7802069ab97b746c8b875360ee9999380696d3f1f29bf71acef4c8f0f3d"
+      "sha256": "ff15f922da916fdb50097f3415199a394715fc7ecf5dca41ad5e60a04795eb45"
      },
      {
       "platform": "windows-x86_64",
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-windows-11-oct-2026.exe",
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-windows-x64-17-oct-2026.exe",
       "kind": "exe",
-      "sha256": "c774921948da7ac5d0d11fca4e43e5a0a71277b70e17bf68a2781641f7db4ba6"
+      "sha256": "caf8c37bb933175318b1834314d19a66c103a2ddd4d514de3014cdb681e6a2ae"
+     },
+     {
+      "platform": "windows-arm64",
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-windows-arm64-17-oct-2026.exe",
+      "kind": "exe",
+      "sha256": "cdb7ade3635b6259760a1d39af99aa888d31accdaccc57a3115a467c6ddb3fe3"
+     },
+     {
+      "platform": "freebsd-x86_64",
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-freebsd-x86_64-17-oct-2026.tar.gz",
+      "kind": "tar.gz",
+      "sha256": "1c7d9d566e134c3595c1f22792361a80304427c201eeb9e1a599f460c44ea4e7"
      }
     ],
     "status": "released",
     "releases": "https://github.com/JKS-sys/keel-releases-29-sep-2026/releases"
    },
    "_feed": {
-    "version": "0.4.6",
+    "version": "0.4.8",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-apple-silicon-11-oct-2026.app.tar.gz",
-      "sha256": "3859dd6e49ecb9dee686d99848c0057348d86fb50ff723b982bacf194f91f4c6"
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-apple-silicon-17-oct-2026.app.tar.gz",
+      "sha256": "ee55208e5df17dbdbc8be5eda4666c727359e240d7114e2528040202a9936c42"
      },
      "macos-x86_64": {
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-macos-intel-11-oct-2026.app.tar.gz",
-      "sha256": "5a3cd8058e2b56b9e1a238af26f4cceaaec5ef75e87db41296ff9053d71ffc3f"
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
+      "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
      },
      "linux-x86_64": {
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-linux-11-oct-2026.AppImage",
-      "sha256": "fdbed7802069ab97b746c8b875360ee9999380696d3f1f29bf71acef4c8f0f3d"
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-linux-x86_64-17-oct-2026.AppImage",
+      "sha256": "ff15f922da916fdb50097f3415199a394715fc7ecf5dca41ad5e60a04795eb45"
      },
      "windows-x86_64": {
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.6-windows-11-oct-2026.exe",
-      "sha256": "c774921948da7ac5d0d11fca4e43e5a0a71277b70e17bf68a2781641f7db4ba6"
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-windows-x64-17-oct-2026.exe",
+      "sha256": "caf8c37bb933175318b1834314d19a66c103a2ddd4d514de3014cdb681e6a2ae"
+     },
+     "windows-arm64": {
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-windows-arm64-17-oct-2026.exe",
+      "sha256": "cdb7ade3635b6259760a1d39af99aa888d31accdaccc57a3115a467c6ddb3fe3"
+     },
+     "freebsd-x86_64": {
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-freebsd-x86_64-17-oct-2026.tar.gz",
+      "sha256": "1c7d9d566e134c3595c1f22792361a80304427c201eeb9e1a599f460c44ea4e7"
      }
     }
    }
@@ -744,9 +764,9 @@
    ],
    "desc": "AI sound mixer with a volume and an equaliser for every app",
    "homepage": "https://ipconfig.co.network/dial",
-   "version": "1.0.9",
+   "version": "1.0.10",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -789,25 +809,25 @@
    "caveats": "Dial is free; Pro unlocks more. Releases: https://github.com/JKS-sys/dial-08-oct-2026-releases/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_x64.app.tar.gz"
     },
     "tahoe": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_x64.app.tar.gz"
     },
     "sequoia": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_x64.app.tar.gz"
     },
     "sonoma": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_x64.app.tar.gz"
     },
     "ventura": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_x64.app.tar.gz"
     },
     "monterey": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_x64.app.tar.gz"
     },
     "big_sur": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_x64.app.tar.gz"
     }
    },
    "pour": {
@@ -816,27 +836,27 @@
     "installers": [
      {
       "platform": "linux-x86_64",
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_1.0.9_amd64.deb",
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_1.0.10_amd64.deb",
       "kind": "deb"
      },
      {
       "platform": "linux-arm64",
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_1.0.5_arm64.deb",
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_1.0.10_arm64.deb",
       "kind": "deb"
      },
      {
       "platform": "windows-x86_64",
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_1.0.9_x64-setup.exe",
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_1.0.10_x64-setup.exe",
       "kind": "exe"
      },
      {
       "platform": "windows-arm64",
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_1.0.9_arm64-setup.exe",
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_1.0.10_arm64-setup.exe",
       "kind": "exe"
      },
      {
       "platform": "freebsd-x86_64",
-      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.9_freebsd_amd64.tar.gz",
+      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.10_freebsd_amd64.tar.gz",
       "kind": "tar.gz"
      }
     ],
@@ -844,28 +864,28 @@
     "releases": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.9",
+    "version": "1.0.10",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_aarch64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_aarch64.app.tar.gz"
      },
      "macos-x86_64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_x64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_x64.app.tar.gz"
      },
      "linux-x86_64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_1.0.9_amd64.deb"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_1.0.10_amd64.deb"
      },
      "linux-arm64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.5/Dial_1.0.5_arm64.deb"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_1.0.10_arm64.deb"
      },
      "windows-x86_64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_1.0.9_x64-setup.exe"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_1.0.10_x64-setup.exe"
      },
      "windows-arm64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.9/Dial_1.0.9_arm64-setup.exe"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.10/Dial_1.0.10_arm64-setup.exe"
      },
      "freebsd-x86_64": {
-      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.9_freebsd_amd64.tar.gz"
+      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.10_freebsd_amd64.tar.gz"
      }
     }
    }
@@ -879,9 +899,9 @@
    ],
    "desc": "AI repair kit for iPhone, Android, your computer and every disk",
    "homepage": "https://ipconfig.co.network/mend",
-   "version": "1.0.13",
+   "version": "1.0.14",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -924,25 +944,25 @@
    "caveats": "Mend is free; Pro unlocks more. Releases: https://github.com/JKS-sys/mend-08-oct-2026-releases/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
     },
     "tahoe": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
     },
     "sequoia": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
     },
     "sonoma": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
     },
     "ventura": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
     },
     "monterey": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
     },
     "big_sur": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
+     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
     }
    },
    "pour": {
@@ -951,22 +971,22 @@
     "installers": [
      {
       "platform": "linux-x86_64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_amd64.deb",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_amd64.deb",
       "kind": "deb"
      },
      {
       "platform": "linux-arm64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_arm64.deb",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_arm64.deb",
       "kind": "deb"
      },
      {
       "platform": "windows-x86_64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_x64-setup.exe",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_x64-setup.exe",
       "kind": "exe"
      },
      {
       "platform": "windows-arm64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_arm64-setup.exe",
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.13_arm64-setup.exe",
       "kind": "exe"
      }
     ],
@@ -974,25 +994,25 @@
     "releases": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.13",
+    "version": "1.0.14",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_aarch64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_aarch64.app.tar.gz"
      },
      "macos-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_x64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
      },
      "linux-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_amd64.deb"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_amd64.deb"
      },
      "linux-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_arm64.deb"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_arm64.deb"
      },
      "windows-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_x64-setup.exe"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_x64-setup.exe"
      },
      "windows-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.13/Mend_1.0.13_arm64-setup.exe"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.13_arm64-setup.exe"
      }
     }
    }

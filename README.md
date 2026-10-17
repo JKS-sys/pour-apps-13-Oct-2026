@@ -74,3 +74,7 @@ Tool names are Homebrew's formula names, so `pour install gh` is one command on 
 
 Copyright © 2026 **Jagadeesh Kumar S**. All rights reserved. The registry and its scripts are source-available under the [Pour licence](https://github.com/JKS-sys/pour-13-Oct-2026/blob/main/LICENSE). The apps themselves have their own terms on their product pages.
 <!-- /licence -->
+
+---
+
+> **If Pour helps you, please ⭐ star this repository — it helps other people find it.**

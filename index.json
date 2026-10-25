@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-10-25T05:12:29.051Z",
+  "synced_at": "2026-10-25T06:22:28.407Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 15
  },
@@ -764,9 +764,9 @@
    ],
    "desc": "AI sound mixer with a volume and an equaliser for every app",
    "homepage": "https://ipconfig.co.network/dial",
-   "version": "1.0.11",
+   "version": "1.0.12",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.12/Dial_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -807,85 +807,19 @@
    ],
    "auto_updates": true,
    "caveats": "Dial is free; Pro unlocks more. Releases: https://github.com/JKS-sys/dial-08-oct-2026-releases/releases",
-   "variations": {
-    "golden_gate": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_x64.app.tar.gz"
-    },
-    "tahoe": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_x64.app.tar.gz"
-    },
-    "sequoia": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_x64.app.tar.gz"
-    },
-    "sonoma": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_x64.app.tar.gz"
-    },
-    "ventura": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_x64.app.tar.gz"
-    },
-    "monterey": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_x64.app.tar.gz"
-    },
-    "big_sur": {
-     "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_x64.app.tar.gz"
-    }
-   },
+   "variations": {},
    "pour": {
     "livecheck": "https://ipconfig.co.network/updates/dial/latest.json",
     "clear_quarantine": true,
-    "installers": [
-     {
-      "platform": "linux-x86_64",
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_1.0.11_amd64.deb",
-      "kind": "deb"
-     },
-     {
-      "platform": "linux-arm64",
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_1.0.11_arm64.deb",
-      "kind": "deb"
-     },
-     {
-      "platform": "windows-x86_64",
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_1.0.11_x64-setup.exe",
-      "kind": "exe"
-     },
-     {
-      "platform": "windows-arm64",
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_1.0.11_arm64-setup.exe",
-      "kind": "exe"
-     },
-     {
-      "platform": "freebsd-x86_64",
-      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.11_freebsd_amd64.tar.gz",
-      "kind": "tar.gz"
-     }
-    ],
+    "installers": [],
     "status": "released",
     "releases": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.11",
+    "version": "1.0.12",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_aarch64.app.tar.gz"
-     },
-     "macos-x86_64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_x64.app.tar.gz"
-     },
-     "linux-x86_64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_1.0.11_amd64.deb"
-     },
-     "linux-arm64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_1.0.11_arm64.deb"
-     },
-     "windows-x86_64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_1.0.11_x64-setup.exe"
-     },
-     "windows-arm64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.11/Dial_1.0.11_arm64-setup.exe"
-     },
-     "freebsd-x86_64": {
-      "url": "https://ipconfig.co.network/updates/dial/Dial_1.0.11_freebsd_amd64.tar.gz"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.12/Dial_aarch64.app.tar.gz"
      }
     }
    }

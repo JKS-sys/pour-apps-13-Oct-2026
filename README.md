@@ -70,6 +70,10 @@ GITHUB_TOKEN=… node build-tools.mjs     # rebuild tools.index.json (the sync w
 
 Tool names are Homebrew's formula names, so `pour install gh` is one command on every system — Homebrew's bottle where it exists, the tool's own build on Windows and FreeBSD. Anyone can add a tool or an app with `pour register` (or `POST /pour/api/register`); it is checked automatically and listed at once when it qualifies.
 
+## Windows software from Scoop
+
+`build-scoop.mjs` syncs the Scoop community's manifest buckets (ScoopInstaller/Main and ScoopInstaller/Extras — about 4,100 maintained manifests, each with a download URL and its hash) into `windows.index.json`, the **pour-windows** registry Pour on Windows reads. It runs every six hours with the other registries; nothing is added by hand. A manifest qualifies only with a stable version, a licence, an https homepage, a 64-bit (or arm64) https download with a SHA-256, no PowerShell steps or installer scripts, no dependencies, and the programs it puts on PATH named. Today 2,302 qualify; the rest are counted by reason in the file's `meta.left_out`.
+
 ## Licence
 
 Copyright © 2026 **Jagadeesh Kumar S**. All rights reserved. The registry and its scripts are source-available under the [Pour licence](https://github.com/JKS-sys/pour-13-Oct-2026/blob/main/LICENSE). The apps themselves have their own terms on their product pages.

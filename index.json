@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-10-26T22:51:13.421Z",
+  "synced_at": "2026-10-27T05:30:54.967Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 15
  },
@@ -680,9 +680,9 @@
    ],
    "desc": "AI sound mixer with a volume and an equaliser for every app",
    "homepage": "https://ipconfig.co.network/dial",
-   "version": "1.0.17",
+   "version": "1.0.18",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.17/Dial_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.18/Dial_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -732,10 +732,10 @@
     "releases": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.17",
+    "version": "1.0.18",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.17/Dial_aarch64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.18/Dial_aarch64.app.tar.gz"
      }
     }
    }

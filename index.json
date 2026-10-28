@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-10-28T13:28:42.123Z",
+  "synced_at": "2026-10-28T22:48:40.590Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 15
  },
@@ -553,9 +553,9 @@
    ],
    "desc": "Save video, audio and subtitles, then search what was said",
    "homepage": "https://ipconfig.co.network/grab",
-   "version": "1.0.5",
+   "version": "1.0.10",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.10_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -596,77 +596,19 @@
    ],
    "auto_updates": true,
    "caveats": "Grab is free; Pro unlocks more. Releases: https://github.com/JKS-sys/grab-08-oct-2026-releases/releases",
-   "variations": {
-    "golden_gate": {
-     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
-    },
-    "tahoe": {
-     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
-    },
-    "sequoia": {
-     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
-    },
-    "sonoma": {
-     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
-    },
-    "ventura": {
-     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
-    },
-    "monterey": {
-     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
-    },
-    "big_sur": {
-     "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
-    }
-   },
+   "variations": {},
    "pour": {
     "livecheck": "https://ipconfig.co.network/updates/grab/latest.json",
     "clear_quarantine": true,
-    "installers": [
-     {
-      "platform": "linux-x86_64",
-      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_amd64.deb",
-      "kind": "deb"
-     },
-     {
-      "platform": "linux-arm64",
-      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_arm64.deb",
-      "kind": "deb"
-     },
-     {
-      "platform": "windows-x86_64",
-      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64-setup.exe",
-      "kind": "exe"
-     },
-     {
-      "platform": "windows-arm64",
-      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_arm64-setup.exe",
-      "kind": "exe"
-     }
-    ],
+    "installers": [],
     "status": "released",
     "releases": "https://github.com/JKS-sys/grab-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.5",
+    "version": "1.0.10",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_aarch64.app.tar.gz"
-     },
-     "macos-x86_64": {
-      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64.app.tar.gz"
-     },
-     "linux-x86_64": {
-      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_amd64.deb"
-     },
-     "linux-arm64": {
-      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_arm64.deb"
-     },
-     "windows-x86_64": {
-      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_x64-setup.exe"
-     },
-     "windows-arm64": {
-      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.5_arm64-setup.exe"
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.10_aarch64.app.tar.gz"
      }
     }
    }
@@ -1003,9 +945,9 @@
    ],
    "desc": "Tiny media player that plays anything, with subtitles, AI and Skip Intro",
    "homepage": "https://ipconfig.co.network/cine",
-   "version": "0.1.15",
-   "sha256": "df9da10a170863ead4fcbb365fc30dda75f214891b6da952617ceb143357c7c1",
-   "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_aarch64.app.tar.gz",
+   "version": "0.1.17",
+   "sha256": "b1d31fbec98f4de0f3412483f8d7d168147341f22a41861f2791b7ad46f630ab",
+   "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.17_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -1046,36 +988,7 @@
    ],
    "auto_updates": true,
    "caveats": "Cine is free; Pro unlocks more. Releases: https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases",
-   "variations": {
-    "golden_gate": {
-     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
-     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
-    },
-    "tahoe": {
-     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
-     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
-    },
-    "sequoia": {
-     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
-     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
-    },
-    "sonoma": {
-     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
-     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
-    },
-    "ventura": {
-     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
-     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
-    },
-    "monterey": {
-     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
-     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
-    },
-    "big_sur": {
-     "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
-     "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
-    }
-   },
+   "variations": {},
    "pour": {
     "livecheck": "https://ipconfig.co.network/updates/cine/latest.json",
     "clear_quarantine": true,
@@ -1084,15 +997,11 @@
     "releases": "https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases"
    },
    "_feed": {
-    "version": "0.1.15",
+    "version": "0.1.17",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_aarch64.app.tar.gz",
-      "sha256": "df9da10a170863ead4fcbb365fc30dda75f214891b6da952617ceb143357c7c1"
-     },
-     "macos-x86_64": {
-      "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.15_x64.app.tar.gz",
-      "sha256": "82e1fc37acc97f78d2e79aceec2a4b3cbc14ecc961c3727de4152692caae5653"
+      "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.17_aarch64.app.tar.gz",
+      "sha256": "b1d31fbec98f4de0f3412483f8d7d168147341f22a41861f2791b7ad46f630ab"
      }
     }
    }
@@ -1106,9 +1015,9 @@
    ],
    "desc": "Private browser where every profile is its own separate device",
    "homepage": "https://ipconfig.co.network/veil",
-   "version": "0.1.10",
+   "version": "0.1.11",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.11_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -1149,29 +1058,7 @@
    ],
    "auto_updates": true,
    "caveats": "Veil is free; Pro unlocks more. Releases: https://github.com/JKS-sys/veil-releases-11-Oct-2026/releases",
-   "variations": {
-    "golden_gate": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
-    },
-    "tahoe": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
-    },
-    "sequoia": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
-    },
-    "sonoma": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
-    },
-    "ventura": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
-    },
-    "monterey": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
-    },
-    "big_sur": {
-     "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
-    }
-   },
+   "variations": {},
    "pour": {
     "livecheck": "https://ipconfig.co.network/updates/veil/latest.json",
     "clear_quarantine": true,
@@ -1180,13 +1067,10 @@
     "releases": "https://github.com/JKS-sys/veil-releases-11-Oct-2026/releases"
    },
    "_feed": {
-    "version": "0.1.10",
+    "version": "0.1.11",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_aarch64.app.tar.gz"
-     },
-     "macos-x86_64": {
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.10_x64.app.tar.gz"
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.11_aarch64.app.tar.gz"
      }
     }
    }

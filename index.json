@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-10-29T06:23:12.533Z",
+  "synced_at": "2026-10-29T13:38:57.904Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 15
  },
@@ -945,9 +945,9 @@
    ],
    "desc": "Tiny media player that plays anything, with subtitles, AI and Skip Intro",
    "homepage": "https://ipconfig.co.network/cine",
-   "version": "0.1.17",
-   "sha256": "b1d31fbec98f4de0f3412483f8d7d168147341f22a41861f2791b7ad46f630ab",
-   "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.17_aarch64.app.tar.gz",
+   "version": "0.1.18",
+   "sha256": "94cada6f21a6ab58e82b91ef42a11d9e65ced60d243d8e2d6e17c2d2840ea562",
+   "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.18_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -997,11 +997,11 @@
     "releases": "https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases"
    },
    "_feed": {
-    "version": "0.1.17",
+    "version": "0.1.18",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.17_aarch64.app.tar.gz",
-      "sha256": "b1d31fbec98f4de0f3412483f8d7d168147341f22a41861f2791b7ad46f630ab"
+      "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.18_aarch64.app.tar.gz",
+      "sha256": "94cada6f21a6ab58e82b91ef42a11d9e65ced60d243d8e2d6e17c2d2840ea562"
      }
     }
    }

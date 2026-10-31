@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-10-31T06:12:36.799Z",
+  "synced_at": "2026-10-31T12:59:43.247Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -1015,9 +1015,9 @@
    ],
    "desc": "Private browser where every profile is its own separate device",
    "homepage": "https://ipconfig.co.network/veil",
-   "version": "0.1.13",
+   "version": "0.1.15",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.13_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.15_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -1067,10 +1067,10 @@
     "releases": "https://github.com/JKS-sys/veil-releases-11-Oct-2026/releases"
    },
    "_feed": {
-    "version": "0.1.13",
+    "version": "0.1.15",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.13_aarch64.app.tar.gz"
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.15_aarch64.app.tar.gz"
      }
     }
    }

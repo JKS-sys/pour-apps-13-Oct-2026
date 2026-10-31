@@ -17,6 +17,7 @@
     {"token": "hone",  "name": "Hone",  "desc": "Audio and video mastering studio", "homepage": "https://ipconfig.co.network/hone", "app": "Hone.app", "status": "coming-soon"},
     {"token": "volt",  "name": "Volt",  "desc": "Fast code editor built on the VS Code codebase", "homepage": "https://ipconfig.co.network/volt", "app": "Volt.app", "status": "coming-soon"},
     {"token": "deft",  "name": "Deft",  "desc": "Change the default app for every file type on macOS", "homepage": "https://ipconfig.co.network/deft", "app": "Deft.app", "status": "coming-soon"},
+    {"token": "cup",  "name": "Cup",  "desc": "App store and manager for the Pour package manager", "homepage": "https://github.com/JKS-sys/cup-15-Oct-2026", "feed": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/latest/download/latest.json", "releases": "https://github.com/JKS-sys/cup-15-Oct-2026/releases", "app": "Cup.app"},
     {"token": "cutflow", "name": "CutFlow", "desc": "Video editor with 24K export, AV1 and automatic cuts", "homepage": "https://ipconfig.co.network/cutflow", "app": "CutFlow.app", "status": "coming-soon"}
   ]
 }

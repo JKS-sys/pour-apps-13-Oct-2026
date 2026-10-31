@@ -2,9 +2,9 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-10-30T22:37:17.061Z",
+  "synced_at": "2026-10-31T03:28:01.188Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
-  "apps": 15
+  "apps": 16
  },
  "formulae": [],
  "casks": [
@@ -1015,9 +1015,9 @@
    ],
    "desc": "Private browser where every profile is its own separate device",
    "homepage": "https://ipconfig.co.network/veil",
-   "version": "0.1.11",
+   "version": "0.1.12",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.11_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.12_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -1067,10 +1067,10 @@
     "releases": "https://github.com/JKS-sys/veil-releases-11-Oct-2026/releases"
    },
    "_feed": {
-    "version": "0.1.11",
+    "version": "0.1.12",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.11_aarch64.app.tar.gz"
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.12_aarch64.app.tar.gz"
      }
     }
    }
@@ -1254,6 +1254,109 @@
     "releases": null
    },
    "_feed": null
+  },
+  {
+   "token": "cup",
+   "full_token": "jks-sys/pour-apps/cup",
+   "tap": "jks-sys/pour-apps",
+   "name": [
+    "Cup"
+   ],
+   "desc": "App store and manager for the Pour package manager",
+   "homepage": "https://github.com/JKS-sys/cup-15-Oct-2026",
+   "version": "1.0.1",
+   "sha256": "ed3abd7b59902a607139950c8b6c7afd87497e51a745d718b238c83b0ec4979e",
+   "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_aarch64.app.tar.gz",
+   "container": {
+    "type": "tar"
+   },
+   "depends_on": {
+    "macos": {
+     ">=": [
+      "11"
+     ]
+    }
+   },
+   "artifacts": [
+    {
+     "uninstall": [
+      {
+       "quit": "network.co.ipconfig.cup"
+      }
+     ]
+    },
+    {
+     "app": [
+      "Cup.app"
+     ]
+    },
+    {
+     "zap": [
+      {
+       "trash": [
+        "~/.cup",
+        "~/Library/Application Support/network.co.ipconfig.cup",
+        "~/Library/Caches/network.co.ipconfig.cup",
+        "~/Library/Preferences/network.co.ipconfig.cup.plist",
+        "~/Library/Saved Application State/network.co.ipconfig.cup.savedState",
+        "~/Library/WebKit/network.co.ipconfig.cup"
+       ]
+      }
+     ]
+    }
+   ],
+   "auto_updates": true,
+   "caveats": "Cup is free; Pro unlocks more. Releases: https://github.com/JKS-sys/cup-15-Oct-2026/releases",
+   "variations": {
+    "golden_gate": {
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
+     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+    },
+    "tahoe": {
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
+     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+    },
+    "sequoia": {
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
+     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+    },
+    "sonoma": {
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
+     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+    },
+    "ventura": {
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
+     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+    },
+    "monterey": {
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
+     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+    },
+    "big_sur": {
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
+     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+    }
+   },
+   "pour": {
+    "livecheck": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/latest/download/latest.json",
+    "clear_quarantine": true,
+    "installers": [],
+    "status": "released",
+    "releases": "https://github.com/JKS-sys/cup-15-Oct-2026/releases"
+   },
+   "_feed": {
+    "version": "1.0.1",
+    "platforms": {
+     "macos-arm64": {
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_aarch64.app.tar.gz",
+      "sha256": "ed3abd7b59902a607139950c8b6c7afd87497e51a745d718b238c83b0ec4979e"
+     },
+     "macos-x86_64": {
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
+      "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+     }
+    }
+   }
   },
   {
    "token": "cutflow",

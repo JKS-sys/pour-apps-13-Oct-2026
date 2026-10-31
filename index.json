@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-10-31T03:28:29.689Z",
+  "synced_at": "2026-10-31T06:12:36.799Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -1015,9 +1015,9 @@
    ],
    "desc": "Private browser where every profile is its own separate device",
    "homepage": "https://ipconfig.co.network/veil",
-   "version": "0.1.12",
+   "version": "0.1.13",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.12_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.13_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -1067,10 +1067,10 @@
     "releases": "https://github.com/JKS-sys/veil-releases-11-Oct-2026/releases"
    },
    "_feed": {
-    "version": "0.1.12",
+    "version": "0.1.13",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.12_aarch64.app.tar.gz"
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.13_aarch64.app.tar.gz"
      }
     }
    }
@@ -1264,9 +1264,9 @@
    ],
    "desc": "App store and manager for the Pour package manager",
    "homepage": "https://github.com/JKS-sys/cup-15-Oct-2026",
-   "version": "1.0.1",
-   "sha256": "ed3abd7b59902a607139950c8b6c7afd87497e51a745d718b238c83b0ec4979e",
-   "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_aarch64.app.tar.gz",
+   "version": "1.0.2",
+   "sha256": "1d05d8ebcb36b1133e4c0c2ca044a384adfd64d88c9ed4d32ca4da780442a1a7",
+   "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.2/Cup_1.0.2_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -1309,32 +1309,32 @@
    "caveats": "Cup is free; Pro unlocks more. Releases: https://github.com/JKS-sys/cup-15-Oct-2026/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
-     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.2/Cup_1.0.2_x64.app.tar.gz",
+     "sha256": "eac8fa8ea1cf5cda13a3c07bdcbc0ffc2d993884176106b7c86ae7cddc241520"
     },
     "tahoe": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
-     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.2/Cup_1.0.2_x64.app.tar.gz",
+     "sha256": "eac8fa8ea1cf5cda13a3c07bdcbc0ffc2d993884176106b7c86ae7cddc241520"
     },
     "sequoia": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
-     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.2/Cup_1.0.2_x64.app.tar.gz",
+     "sha256": "eac8fa8ea1cf5cda13a3c07bdcbc0ffc2d993884176106b7c86ae7cddc241520"
     },
     "sonoma": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
-     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.2/Cup_1.0.2_x64.app.tar.gz",
+     "sha256": "eac8fa8ea1cf5cda13a3c07bdcbc0ffc2d993884176106b7c86ae7cddc241520"
     },
     "ventura": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
-     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.2/Cup_1.0.2_x64.app.tar.gz",
+     "sha256": "eac8fa8ea1cf5cda13a3c07bdcbc0ffc2d993884176106b7c86ae7cddc241520"
     },
     "monterey": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
-     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.2/Cup_1.0.2_x64.app.tar.gz",
+     "sha256": "eac8fa8ea1cf5cda13a3c07bdcbc0ffc2d993884176106b7c86ae7cddc241520"
     },
     "big_sur": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
-     "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.2/Cup_1.0.2_x64.app.tar.gz",
+     "sha256": "eac8fa8ea1cf5cda13a3c07bdcbc0ffc2d993884176106b7c86ae7cddc241520"
     }
    },
    "pour": {
@@ -1345,15 +1345,15 @@
     "releases": "https://github.com/JKS-sys/cup-15-Oct-2026/releases"
    },
    "_feed": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_aarch64.app.tar.gz",
-      "sha256": "ed3abd7b59902a607139950c8b6c7afd87497e51a745d718b238c83b0ec4979e"
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.2/Cup_1.0.2_aarch64.app.tar.gz",
+      "sha256": "1d05d8ebcb36b1133e4c0c2ca044a384adfd64d88c9ed4d32ca4da780442a1a7"
      },
      "macos-x86_64": {
-      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.1/Cup_1.0.1_x64.app.tar.gz",
-      "sha256": "85c65d24add11365e74b601c73b469607ef4d17d66116ad2357468a57e31268e"
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.2/Cup_1.0.2_x64.app.tar.gz",
+      "sha256": "eac8fa8ea1cf5cda13a3c07bdcbc0ffc2d993884176106b7c86ae7cddc241520"
      }
     }
    }

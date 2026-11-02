@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-11-01T22:19:35.724Z",
+  "synced_at": "2026-11-02T06:44:15.026Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -945,9 +945,9 @@
    ],
    "desc": "Tiny media player that plays anything, with subtitles, AI and Skip Intro",
    "homepage": "https://ipconfig.co.network/cine",
-   "version": "0.1.20",
-   "sha256": "94962686dc1fd5b6666ee7bdd7a8e7b9f724d820c87ca223b9e79b53d2c24ea2",
-   "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.20_aarch64.app.tar.gz",
+   "version": "0.1.23",
+   "sha256": "1a5998b42ca51f9483f271c807e2ef1465f95309170362c77861f029d0ddf34f",
+   "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.23_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -997,11 +997,11 @@
     "releases": "https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases"
    },
    "_feed": {
-    "version": "0.1.20",
+    "version": "0.1.23",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.20_aarch64.app.tar.gz",
-      "sha256": "94962686dc1fd5b6666ee7bdd7a8e7b9f724d820c87ca223b9e79b53d2c24ea2"
+      "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.23_aarch64.app.tar.gz",
+      "sha256": "1a5998b42ca51f9483f271c807e2ef1465f95309170362c77861f029d0ddf34f"
      }
     }
    }
@@ -1015,9 +1015,9 @@
    ],
    "desc": "Private browser where every profile is its own separate device",
    "homepage": "https://ipconfig.co.network/veil",
-   "version": "0.1.15",
+   "version": "0.1.16",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.15_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.16_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -1067,10 +1067,10 @@
     "releases": "https://github.com/JKS-sys/veil-releases-11-Oct-2026/releases"
    },
    "_feed": {
-    "version": "0.1.15",
+    "version": "0.1.16",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.15_aarch64.app.tar.gz"
+      "url": "https://ipconfig.co.network/veil/updates/Veil_0.1.16_aarch64.app.tar.gz"
      }
     }
    }

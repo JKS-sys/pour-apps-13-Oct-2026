@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-11-04T06:56:06.089Z",
+  "synced_at": "2026-11-04T19:59:18.690Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -333,9 +333,9 @@
    ],
    "desc": "AI terminal that marks which commands worked and which failed",
    "homepage": "https://ipconfig.co.network/keel",
-   "version": "0.4.8",
-   "sha256": "ee55208e5df17dbdbc8be5eda4666c727359e240d7114e2528040202a9936c42",
-   "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-apple-silicon-17-oct-2026.app.tar.gz",
+   "version": "0.4.11",
+   "sha256": "3b61fe879985d064732b6299c115204137d136a55bf328da148e96adeb3e306e",
+   "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.11-macos-apple-silicon-04-nov-2026.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -376,94 +376,20 @@
    ],
    "auto_updates": true,
    "caveats": "Keel is free; Pro unlocks more. Releases: https://github.com/JKS-sys/keel-releases-29-sep-2026/releases",
-   "variations": {
-    "golden_gate": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
-     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
-    },
-    "tahoe": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
-     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
-    },
-    "sequoia": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
-     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
-    },
-    "sonoma": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
-     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
-    },
-    "ventura": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
-     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
-    },
-    "monterey": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
-     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
-    },
-    "big_sur": {
-     "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
-     "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
-    }
-   },
+   "variations": {},
    "pour": {
     "livecheck": "https://ipconfig.co.network/updates/keel/latest.json",
     "clear_quarantine": true,
-    "installers": [
-     {
-      "platform": "linux-x86_64",
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-linux-x86_64-17-oct-2026.AppImage",
-      "kind": "appimage",
-      "sha256": "ff15f922da916fdb50097f3415199a394715fc7ecf5dca41ad5e60a04795eb45"
-     },
-     {
-      "platform": "windows-x86_64",
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-windows-x64-17-oct-2026.exe",
-      "kind": "exe",
-      "sha256": "caf8c37bb933175318b1834314d19a66c103a2ddd4d514de3014cdb681e6a2ae"
-     },
-     {
-      "platform": "windows-arm64",
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-windows-arm64-17-oct-2026.exe",
-      "kind": "exe",
-      "sha256": "cdb7ade3635b6259760a1d39af99aa888d31accdaccc57a3115a467c6ddb3fe3"
-     },
-     {
-      "platform": "freebsd-x86_64",
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-freebsd-x86_64-17-oct-2026.tar.gz",
-      "kind": "tar.gz",
-      "sha256": "1c7d9d566e134c3595c1f22792361a80304427c201eeb9e1a599f460c44ea4e7"
-     }
-    ],
+    "installers": [],
     "status": "released",
     "releases": "https://github.com/JKS-sys/keel-releases-29-sep-2026/releases"
    },
    "_feed": {
-    "version": "0.4.8",
+    "version": "0.4.11",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-apple-silicon-17-oct-2026.app.tar.gz",
-      "sha256": "ee55208e5df17dbdbc8be5eda4666c727359e240d7114e2528040202a9936c42"
-     },
-     "macos-x86_64": {
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-macos-intel-17-oct-2026.app.tar.gz",
-      "sha256": "042a07bc8c90994368dcb8abbd0b45c4d8e4ba0b944f7cf00b892977c9281237"
-     },
-     "linux-x86_64": {
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-linux-x86_64-17-oct-2026.AppImage",
-      "sha256": "ff15f922da916fdb50097f3415199a394715fc7ecf5dca41ad5e60a04795eb45"
-     },
-     "windows-x86_64": {
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-windows-x64-17-oct-2026.exe",
-      "sha256": "caf8c37bb933175318b1834314d19a66c103a2ddd4d514de3014cdb681e6a2ae"
-     },
-     "windows-arm64": {
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-windows-arm64-17-oct-2026.exe",
-      "sha256": "cdb7ade3635b6259760a1d39af99aa888d31accdaccc57a3115a467c6ddb3fe3"
-     },
-     "freebsd-x86_64": {
-      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.8-freebsd-x86_64-17-oct-2026.tar.gz",
-      "sha256": "1c7d9d566e134c3595c1f22792361a80304427c201eeb9e1a599f460c44ea4e7"
+      "url": "https://ipconfig.co.network/updates/keel/Keel-0.4.11-macos-apple-silicon-04-nov-2026.app.tar.gz",
+      "sha256": "3b61fe879985d064732b6299c115204137d136a55bf328da148e96adeb3e306e"
      }
     }
    }
@@ -622,9 +548,9 @@
    ],
    "desc": "AI sound mixer with a volume and an equaliser for every app",
    "homepage": "https://ipconfig.co.network/dial",
-   "version": "1.0.23",
+   "version": "1.0.25",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.23/Dial_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.25/Dial_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -674,10 +600,10 @@
     "releases": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.23",
+    "version": "1.0.25",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.23/Dial_aarch64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.25/Dial_aarch64.app.tar.gz"
      }
     }
    }

@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-11-05T20:14:34.237Z",
+  "synced_at": "2026-11-06T07:18:45.349Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -403,9 +403,9 @@
    ],
    "desc": "AI disk cleaner that shows you everything before it removes it",
    "homepage": "https://ipconfig.co.network/swep",
-   "version": "0.2.18",
-   "sha256": "3f5b609c61ea250e4a749b0f518fa16a45a55d8cbbaefcb5f0817271ec0f5103",
-   "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.18_aarch64.app.tar.gz",
+   "version": "0.2.20",
+   "sha256": "1d09a6dbc747ec13c9622cffe7aa2b29324948bb1c363ae0f3a5b062d30133cc",
+   "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.20_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -461,11 +461,11 @@
     "releases": "https://github.com/JKS-sys/swep-releases-30-sep-2026/releases"
    },
    "_feed": {
-    "version": "0.2.18",
+    "version": "0.2.20",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.18_aarch64.app.tar.gz",
-      "sha256": "3f5b609c61ea250e4a749b0f518fa16a45a55d8cbbaefcb5f0817271ec0f5103"
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.20_aarch64.app.tar.gz",
+      "sha256": "1d09a6dbc747ec13c9622cffe7aa2b29324948bb1c363ae0f3a5b062d30133cc"
      }
     }
    }
@@ -548,9 +548,9 @@
    ],
    "desc": "AI sound mixer with a volume and an equaliser for every app",
    "homepage": "https://ipconfig.co.network/dial",
-   "version": "1.0.27",
+   "version": "1.0.29",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.27/Dial_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.29/Dial_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -600,10 +600,10 @@
     "releases": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.27",
+    "version": "1.0.29",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.27/Dial_aarch64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/dial-08-oct-2026-releases/releases/download/v1.0.29/Dial_aarch64.app.tar.gz"
      }
     }
    }
@@ -617,9 +617,9 @@
    ],
    "desc": "AI repair kit for iPhone, Android, your computer and every disk",
    "homepage": "https://ipconfig.co.network/mend",
-   "version": "1.0.15",
+   "version": "1.0.18",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.15/Mend_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.18/Mend_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -660,77 +660,19 @@
    ],
    "auto_updates": true,
    "caveats": "Mend is free; Pro unlocks more. Releases: https://github.com/JKS-sys/mend-08-oct-2026-releases/releases",
-   "variations": {
-    "golden_gate": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
-    },
-    "tahoe": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
-    },
-    "sequoia": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
-    },
-    "sonoma": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
-    },
-    "ventura": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
-    },
-    "monterey": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
-    },
-    "big_sur": {
-     "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
-    }
-   },
+   "variations": {},
    "pour": {
     "livecheck": "https://ipconfig.co.network/updates/mend/latest.json",
     "clear_quarantine": true,
-    "installers": [
-     {
-      "platform": "linux-x86_64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_amd64.deb",
-      "kind": "deb"
-     },
-     {
-      "platform": "linux-arm64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_arm64.deb",
-      "kind": "deb"
-     },
-     {
-      "platform": "windows-x86_64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_x64-setup.exe",
-      "kind": "exe"
-     },
-     {
-      "platform": "windows-arm64",
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.13_arm64-setup.exe",
-      "kind": "exe"
-     }
-    ],
+    "installers": [],
     "status": "released",
     "releases": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.15",
+    "version": "1.0.18",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.15/Mend_aarch64.app.tar.gz"
-     },
-     "macos-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_x64.app.tar.gz"
-     },
-     "linux-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_amd64.deb"
-     },
-     "linux-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_arm64.deb"
-     },
-     "windows-x86_64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.14_x64-setup.exe"
-     },
-     "windows-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.14/Mend_1.0.13_arm64-setup.exe"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.18/Mend_aarch64.app.tar.gz"
      }
     }
    }

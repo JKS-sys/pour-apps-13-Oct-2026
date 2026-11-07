@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-11-07T13:29:35.480Z",
+  "synced_at": "2026-11-07T22:14:40.790Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -239,9 +239,9 @@
    ],
    "desc": "AI code text editor that opens instantly and never loses work",
    "homepage": "https://ipconfig.co.network/nib",
-   "version": "0.4.12",
+   "version": "0.4.15",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.15_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -282,29 +282,7 @@
    ],
    "auto_updates": true,
    "caveats": "Nib is free; Pro unlocks more. Releases: https://github.com/JKS-sys/nib-22-sep-2026-releases/releases",
-   "variations": {
-    "golden_gate": {
-     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
-    },
-    "tahoe": {
-     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
-    },
-    "sequoia": {
-     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
-    },
-    "sonoma": {
-     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
-    },
-    "ventura": {
-     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
-    },
-    "monterey": {
-     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
-    },
-    "big_sur": {
-     "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
-    }
-   },
+   "variations": {},
    "pour": {
     "livecheck": "https://ipconfig.co.network/updates/nib/latest.json",
     "clear_quarantine": true,
@@ -313,13 +291,10 @@
     "releases": "https://github.com/JKS-sys/nib-22-sep-2026-releases/releases"
    },
    "_feed": {
-    "version": "0.4.12",
+    "version": "0.4.15",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_aarch64.app.tar.gz"
-     },
-     "macos-x86_64": {
-      "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.12_x64.app.tar.gz"
+      "url": "https://ipconfig.co.network/updates/nib/Nib_0.4.15_aarch64.app.tar.gz"
      }
     }
    }

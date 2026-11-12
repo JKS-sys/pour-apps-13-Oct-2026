@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-11-11T19:49:46.746Z",
+  "synced_at": "2026-11-12T07:39:23.597Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -128,9 +128,9 @@
    ],
    "desc": "Local AI transcription: turns audio and video into subtitles on your own computer",
    "homepage": "https://ipconfig.co.network/voxo",
-   "version": "2.0.7",
+   "version": "2.0.9",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.7_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.9_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -173,25 +173,25 @@
    "caveats": "Voxo is free; Pro unlocks more. Releases: https://github.com/JKS-sys/Voxo-06-Sep-2026-Releases/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.9_x64.app.tar.gz"
     },
     "tahoe": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.9_x64.app.tar.gz"
     },
     "sequoia": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.9_x64.app.tar.gz"
     },
     "sonoma": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.9_x64.app.tar.gz"
     },
     "ventura": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.9_x64.app.tar.gz"
     },
     "monterey": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.9_x64.app.tar.gz"
     },
     "big_sur": {
-     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.7_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.9_x64.app.tar.gz"
     }
    },
    "pour": {
@@ -202,13 +202,13 @@
     "releases": "https://github.com/JKS-sys/Voxo-06-Sep-2026-Releases/releases"
    },
    "_feed": {
-    "version": "2.0.7",
+    "version": "2.0.9",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.7_aarch64.app.tar.gz"
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.9_aarch64.app.tar.gz"
      },
      "macos-x86_64": {
-      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.7_x64.app.tar.gz"
+      "url": "https://ipconfig.co.network/updates/voxo/Voxo_2.0.9_x64.app.tar.gz"
      }
     }
    }

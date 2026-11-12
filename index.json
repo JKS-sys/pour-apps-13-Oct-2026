@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-11-12T07:39:23.597Z",
+  "synced_at": "2026-11-12T20:22:58.425Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -17,9 +17,9 @@
    ],
    "desc": "Fast image viewer that opens pictures instantly and stays quiet",
    "homepage": "https://ipconfig.co.network/peek",
-   "version": "2.0.13",
+   "version": "2.0.14",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.14_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -62,59 +62,42 @@
    "caveats": "Peek is free; Pro unlocks more. Releases: https://github.com/JKS-sys/peek-04-sep-2026-releases/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.14_x64.app.tar.gz"
     },
     "tahoe": {
-     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.14_x64.app.tar.gz"
     },
     "sequoia": {
-     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.14_x64.app.tar.gz"
     },
     "sonoma": {
-     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.14_x64.app.tar.gz"
     },
     "ventura": {
-     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.14_x64.app.tar.gz"
     },
     "monterey": {
-     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.14_x64.app.tar.gz"
     },
     "big_sur": {
-     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
+     "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.14_x64.app.tar.gz"
     }
    },
    "pour": {
     "livecheck": "https://ipconfig.co.network/updates/peek/latest.json",
     "clear_quarantine": true,
-    "installers": [
-     {
-      "platform": "linux-x86_64",
-      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_amd64.AppImage",
-      "kind": "appimage"
-     },
-     {
-      "platform": "windows-x86_64",
-      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64-setup.exe",
-      "kind": "exe"
-     }
-    ],
+    "installers": [],
     "status": "released",
     "releases": "https://github.com/JKS-sys/peek-04-sep-2026-releases/releases"
    },
    "_feed": {
-    "version": "2.0.13",
+    "version": "2.0.14",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_aarch64.app.tar.gz"
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.14_aarch64.app.tar.gz"
      },
      "macos-x86_64": {
-      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.app.tar.gz"
-     },
-     "linux-x86_64": {
-      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_amd64.AppImage"
-     },
-     "windows-x86_64": {
-      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64-setup.exe"
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.14_x64.app.tar.gz"
      }
     }
    }
@@ -771,9 +754,9 @@
    ],
    "desc": "Tiny media player that plays anything, with subtitles, AI and Skip Intro",
    "homepage": "https://ipconfig.co.network/cine",
-   "version": "0.1.28",
-   "sha256": "10464245cc64514c302c1423d23276f42f0e77b7b0c2ffd17d1042cb089cb7e2",
-   "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.28_aarch64.app.tar.gz",
+   "version": "0.1.29",
+   "sha256": "a635f8b4a00004fb2f263a63d80ca67805cacee01acd4b6b7cb099be0291225c",
+   "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.29_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -823,11 +806,11 @@
     "releases": "https://github.com/JKS-sys/cine-releases-11-Oct-2026/releases"
    },
    "_feed": {
-    "version": "0.1.28",
+    "version": "0.1.29",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.28_aarch64.app.tar.gz",
-      "sha256": "10464245cc64514c302c1423d23276f42f0e77b7b0c2ffd17d1042cb089cb7e2"
+      "url": "https://ipconfig.co.network/updates/cine/Cine_0.1.29_aarch64.app.tar.gz",
+      "sha256": "a635f8b4a00004fb2f263a63d80ca67805cacee01acd4b6b7cb099be0291225c"
      }
     }
    }
@@ -1090,9 +1073,9 @@
    ],
    "desc": "App store and manager for the Pour package manager",
    "homepage": "https://github.com/JKS-sys/cup-15-Oct-2026",
-   "version": "1.0.3",
-   "sha256": "55ee96c3c84f03b40dc1bc3c6e98e5ae44774f97de3edc2b018c074118145afe",
-   "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_aarch64.app.tar.gz",
+   "version": "1.0.4",
+   "sha256": "14fb14fab7a6cf9b22698184fce48392b7f377ccccdf017d488f14f48d083ac7",
+   "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -1135,32 +1118,32 @@
    "caveats": "Cup is free; Pro unlocks more. Releases: https://github.com/JKS-sys/cup-15-Oct-2026/releases",
    "variations": {
     "golden_gate": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_x64.app.tar.gz",
-     "sha256": "cef34b1aef47abd283a1dd650c17f4c136479128869f0748a43dbac4f0aabb98"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_x64.app.tar.gz",
+     "sha256": "4d712e7be06b256cb59e8649c35001096f18746893f4e55b5defbbbcff75052a"
     },
     "tahoe": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_x64.app.tar.gz",
-     "sha256": "cef34b1aef47abd283a1dd650c17f4c136479128869f0748a43dbac4f0aabb98"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_x64.app.tar.gz",
+     "sha256": "4d712e7be06b256cb59e8649c35001096f18746893f4e55b5defbbbcff75052a"
     },
     "sequoia": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_x64.app.tar.gz",
-     "sha256": "cef34b1aef47abd283a1dd650c17f4c136479128869f0748a43dbac4f0aabb98"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_x64.app.tar.gz",
+     "sha256": "4d712e7be06b256cb59e8649c35001096f18746893f4e55b5defbbbcff75052a"
     },
     "sonoma": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_x64.app.tar.gz",
-     "sha256": "cef34b1aef47abd283a1dd650c17f4c136479128869f0748a43dbac4f0aabb98"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_x64.app.tar.gz",
+     "sha256": "4d712e7be06b256cb59e8649c35001096f18746893f4e55b5defbbbcff75052a"
     },
     "ventura": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_x64.app.tar.gz",
-     "sha256": "cef34b1aef47abd283a1dd650c17f4c136479128869f0748a43dbac4f0aabb98"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_x64.app.tar.gz",
+     "sha256": "4d712e7be06b256cb59e8649c35001096f18746893f4e55b5defbbbcff75052a"
     },
     "monterey": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_x64.app.tar.gz",
-     "sha256": "cef34b1aef47abd283a1dd650c17f4c136479128869f0748a43dbac4f0aabb98"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_x64.app.tar.gz",
+     "sha256": "4d712e7be06b256cb59e8649c35001096f18746893f4e55b5defbbbcff75052a"
     },
     "big_sur": {
-     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_x64.app.tar.gz",
-     "sha256": "cef34b1aef47abd283a1dd650c17f4c136479128869f0748a43dbac4f0aabb98"
+     "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_x64.app.tar.gz",
+     "sha256": "4d712e7be06b256cb59e8649c35001096f18746893f4e55b5defbbbcff75052a"
     }
    },
    "pour": {
@@ -1169,48 +1152,58 @@
     "installers": [
      {
       "platform": "linux-x86_64",
-      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/cup_1.0.3_amd64.deb",
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/cup_1.0.4_amd64.deb",
       "kind": "deb",
-      "sha256": "eecf9619778af7feeb7ba361cc641e301257fcdb1846d861b9c11bc1c0862897"
+      "sha256": "08f8c9f47aeb1340d4ae03cc6080f55ea72f101f7a876de600254963f6f25029"
      },
      {
       "platform": "linux-arm64",
-      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/cup_1.0.3_arm64.deb",
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/cup_1.0.4_arm64.deb",
       "kind": "deb",
-      "sha256": "30542a5cb4bf19f4b83ab518ce8deb10efa294283804599d460c12bc84dd43e2"
+      "sha256": "a584f56500d2032cab93b217a76ae15e0c234be53a247aeefc6bebcc66670f34"
      },
      {
       "platform": "windows-x86_64",
-      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_x64-setup.exe",
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_x64-setup.exe",
       "kind": "exe",
-      "sha256": "6e9c7c5c7056050cefea24b31ca626f55c169b87ba10506e97d4fa3d48809134"
+      "sha256": "d8d736294cff7526d58992cd5bdbe241587f83a286813e8d4baf7f801f682672"
+     },
+     {
+      "platform": "freebsd-x86_64",
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_freebsd-x86_64.tar.gz",
+      "kind": "tar.gz",
+      "sha256": "6077b34d2938162d2ebf25cb0306df67c33dce1fe1a602d9b2a77b6561313f98"
      }
     ],
     "status": "released",
     "releases": "https://github.com/JKS-sys/cup-15-Oct-2026/releases"
    },
    "_feed": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_aarch64.app.tar.gz",
-      "sha256": "55ee96c3c84f03b40dc1bc3c6e98e5ae44774f97de3edc2b018c074118145afe"
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_aarch64.app.tar.gz",
+      "sha256": "14fb14fab7a6cf9b22698184fce48392b7f377ccccdf017d488f14f48d083ac7"
      },
      "macos-x86_64": {
-      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_x64.app.tar.gz",
-      "sha256": "cef34b1aef47abd283a1dd650c17f4c136479128869f0748a43dbac4f0aabb98"
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_x64.app.tar.gz",
+      "sha256": "4d712e7be06b256cb59e8649c35001096f18746893f4e55b5defbbbcff75052a"
      },
      "linux-x86_64": {
-      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/cup_1.0.3_amd64.deb",
-      "sha256": "eecf9619778af7feeb7ba361cc641e301257fcdb1846d861b9c11bc1c0862897"
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/cup_1.0.4_amd64.deb",
+      "sha256": "08f8c9f47aeb1340d4ae03cc6080f55ea72f101f7a876de600254963f6f25029"
      },
      "linux-arm64": {
-      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/cup_1.0.3_arm64.deb",
-      "sha256": "30542a5cb4bf19f4b83ab518ce8deb10efa294283804599d460c12bc84dd43e2"
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/cup_1.0.4_arm64.deb",
+      "sha256": "a584f56500d2032cab93b217a76ae15e0c234be53a247aeefc6bebcc66670f34"
      },
      "windows-x86_64": {
-      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.3/Cup_1.0.3_x64-setup.exe",
-      "sha256": "6e9c7c5c7056050cefea24b31ca626f55c169b87ba10506e97d4fa3d48809134"
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_x64-setup.exe",
+      "sha256": "d8d736294cff7526d58992cd5bdbe241587f83a286813e8d4baf7f801f682672"
+     },
+     "freebsd-x86_64": {
+      "url": "https://github.com/JKS-sys/cup-15-Oct-2026/releases/download/v1.0.4/Cup_1.0.4_freebsd-x86_64.tar.gz",
+      "sha256": "6077b34d2938162d2ebf25cb0306df67c33dce1fe1a602d9b2a77b6561313f98"
      }
     }
    }

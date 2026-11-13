@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-11-12T20:22:58.425Z",
+  "synced_at": "2026-11-13T07:10:32.136Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -420,9 +420,9 @@
    ],
    "desc": "Save video, audio and subtitles, then search what was said",
    "homepage": "https://ipconfig.co.network/grab",
-   "version": "1.0.10",
+   "version": "1.0.11",
    "sha256": "no_check",
-   "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.10_aarch64.app.tar.gz",
+   "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.11_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -472,10 +472,10 @@
     "releases": "https://github.com/JKS-sys/grab-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.10",
+    "version": "1.0.11",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.10_aarch64.app.tar.gz"
+      "url": "https://ipconfig.co.network/updates/grab/Grab_1.0.11_aarch64.app.tar.gz"
      }
     }
    }
@@ -558,9 +558,9 @@
    ],
    "desc": "AI repair kit for iPhone, Android, your computer and every disk",
    "homepage": "https://ipconfig.co.network/mend",
-   "version": "1.0.30",
+   "version": "1.0.33",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.30/Mend_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.33/Mend_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -610,10 +610,10 @@
     "releases": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.30",
+    "version": "1.0.33",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.30/Mend_aarch64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.33/Mend_aarch64.app.tar.gz"
      }
     }
    }

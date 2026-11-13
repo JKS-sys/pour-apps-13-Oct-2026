@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-11-13T07:10:32.136Z",
+  "synced_at": "2026-11-13T19:58:48.587Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -558,9 +558,9 @@
    ],
    "desc": "AI repair kit for iPhone, Android, your computer and every disk",
    "homepage": "https://ipconfig.co.network/mend",
-   "version": "1.0.33",
+   "version": "1.0.35",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.33/Mend_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.35/Mend_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -610,10 +610,10 @@
     "releases": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.33",
+    "version": "1.0.35",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.33/Mend_aarch64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.35/Mend_aarch64.app.tar.gz"
      }
     }
    }

@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-11-16T22:27:57.649Z",
+  "synced_at": "2026-11-17T08:25:04.531Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -344,9 +344,9 @@
    ],
    "desc": "AI disk cleaner that shows you everything before it removes it",
    "homepage": "https://ipconfig.co.network/swep",
-   "version": "0.2.23",
-   "sha256": "b0559c331d192241d40907f74693854792c51bc5b37b46cabbde134f7025ccca",
-   "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.23_aarch64.app.tar.gz",
+   "version": "0.2.24",
+   "sha256": "e6758f53e5276c978065e6557ffacbba31920f400ca0552b7326259526ca9701",
+   "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.24_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -402,11 +402,11 @@
     "releases": "https://github.com/JKS-sys/swep-releases-30-sep-2026/releases"
    },
    "_feed": {
-    "version": "0.2.23",
+    "version": "0.2.24",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.23_aarch64.app.tar.gz",
-      "sha256": "b0559c331d192241d40907f74693854792c51bc5b37b46cabbde134f7025ccca"
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.24_aarch64.app.tar.gz",
+      "sha256": "e6758f53e5276c978065e6557ffacbba31920f400ca0552b7326259526ca9701"
      }
     }
    }
@@ -558,9 +558,9 @@
    ],
    "desc": "AI repair kit for iPhone, Android, your computer and every disk",
    "homepage": "https://ipconfig.co.network/mend",
-   "version": "1.0.35",
+   "version": "1.0.39",
    "sha256": "no_check",
-   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.35/Mend_aarch64.app.tar.gz",
+   "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.39/Mend_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -610,10 +610,10 @@
     "releases": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases"
    },
    "_feed": {
-    "version": "1.0.35",
+    "version": "1.0.39",
     "platforms": {
      "macos-arm64": {
-      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.35/Mend_aarch64.app.tar.gz"
+      "url": "https://github.com/JKS-sys/mend-08-oct-2026-releases/releases/download/v1.0.39/Mend_aarch64.app.tar.gz"
      }
     }
    }

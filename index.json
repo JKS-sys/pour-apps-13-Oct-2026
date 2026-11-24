@@ -2,7 +2,7 @@
  "meta": {
   "name": "pour-apps",
   "owner": "Jagadeesh Kumar S",
-  "synced_at": "2026-11-24T10:21:09.740Z",
+  "synced_at": "2026-11-24T22:43:41.914Z",
   "source": "https://github.com/JKS-sys/pour-apps-13-Oct-2026",
   "apps": 16
  },
@@ -344,9 +344,9 @@
    ],
    "desc": "AI disk cleaner that shows you everything before it removes it",
    "homepage": "https://ipconfig.co.network/swep",
-   "version": "0.2.24",
-   "sha256": "e6758f53e5276c978065e6557ffacbba31920f400ca0552b7326259526ca9701",
-   "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.24_aarch64.app.tar.gz",
+   "version": "0.2.25",
+   "sha256": "33b1ff7cb7b465de59b65369da2bb7363729f343ae3979fe5ead793473be60cd",
+   "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.25_aarch64.app.tar.gz",
    "container": {
     "type": "tar"
    },
@@ -402,11 +402,11 @@
     "releases": "https://github.com/JKS-sys/swep-releases-30-sep-2026/releases"
    },
    "_feed": {
-    "version": "0.2.24",
+    "version": "0.2.25",
     "platforms": {
      "macos-arm64": {
-      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.24_aarch64.app.tar.gz",
-      "sha256": "e6758f53e5276c978065e6557ffacbba31920f400ca0552b7326259526ca9701"
+      "url": "https://ipconfig.co.network/updates/swep/Swep_0.2.25_aarch64.app.tar.gz",
+      "sha256": "33b1ff7cb7b465de59b65369da2bb7363729f343ae3979fe5ead793473be60cd"
      }
     }
    }
